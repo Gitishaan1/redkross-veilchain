@@ -1,0 +1,5 @@
+case_id,input_text,expected_redaction
+RED-01,Contact Maya Example at maya.example@example.com,email address masked
+RED-02,Call +353-00-000-0002 for follow-up,phone number masked
+RED-03,Record REC-003 is marked Confidential,record ID may remain; explain policy
+RED-04,No personal information appears in this sentence,no change

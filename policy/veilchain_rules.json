@@ -1,0 +1,79 @@
+{
+  "rules_version": "1.0",
+  "description": "VeilChain rules: how fields, detected entities and labels map onto the classes of the organisation's policy. Where the policy does not list an example, the mapping below is a documented interpretation.",
+  "field_rules": {
+    "record_id": {
+      "class": "Internal",
+      "why": "Surrogate key. It identifies no one outside the source system, but anyone holding the source file can link it back, so it is Internal rather than Public."
+    },
+    "full_name": {
+      "class": "Confidential",
+      "entity": "PERSON",
+      "why": "Policy lists customer records and employee contact details as Confidential."
+    },
+    "email": {
+      "class": "Confidential",
+      "entity": "EMAIL",
+      "why": "Contact detail within a customer record (policy: Confidential)."
+    },
+    "phone": {
+      "class": "Confidential",
+      "entity": "PHONE",
+      "why": "Contact detail within a customer record (policy: Confidential)."
+    },
+    "department": {
+      "class": "Internal",
+      "quasi_identifier": true,
+      "why": "Organisational detail. Harmless alone, but a quasi-identifier: combined with other fields it can single out a person."
+    },
+    "data_sensitivity": {
+      "class": "Internal",
+      "quasi_identifier": true,
+      "asserted_label": true,
+      "why": "A label asserted by the data owner (low/medium/high). It is compared with the class VeilChain computes; it is not trusted blindly."
+    },
+    "case_id": {
+      "class": "Internal",
+      "why": "Test-case identifier."
+    },
+    "expected_redaction": {
+      "class": "Internal",
+      "why": "Descriptive text about the expected result of a test case."
+    }
+  },
+  "unknown_field": {
+    "class": "Confidential",
+    "entity": "DATA",
+    "why": "Default deny: a column the rules do not know about is treated as Confidential until someone classifies it."
+  },
+  "entity_classes": {
+    "PERSON": "Confidential",
+    "EMAIL": "Confidential",
+    "PHONE": "Confidential",
+    "CARD": "Confidential",
+    "SECRET": "Restricted",
+    "PRIVATE_KEY": "Restricted",
+    "RECORD_ID": "Internal"
+  },
+  "entity_why": {
+    "PERSON": "Name of a data subject (customer record).",
+    "EMAIL": "Contact detail (customer record or employee contact detail).",
+    "PHONE": "Contact detail (customer record or employee contact detail).",
+    "CARD": "Payment card number. The policy does not list it, so it is treated as part of a customer record (Confidential). Design choice.",
+    "SECRET": "Authentication secret (policy: Restricted).",
+    "PRIVATE_KEY": "Private key (policy: Restricted).",
+    "RECORD_ID": "Surrogate record identifier."
+  },
+  "record_id_pattern": "\\bREC-\\d{3,}\\b",
+  "label_map": {
+    "low": "Internal",
+    "medium": "Confidential",
+    "high": "Confidential"
+  },
+  "never_store_class": "Restricted",
+  "defaults": {
+    "release_level": "Internal",
+    "mode": "pseudonymise",
+    "k_min": 2
+  }
+}

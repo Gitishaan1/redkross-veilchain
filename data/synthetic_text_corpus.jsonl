@@ -1,0 +1,400 @@
+{"id": "S0001", "kind": "positive", "text": "Card on file: 4012-8888-8888-1881 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 33, "known": true}]}
+{"id": "S0002", "kind": "positive", "text": "Customer Noah Example called from +353 00 000 9396.", "spans": [{"entity": "PERSON", "start": 9, "end": 21, "known": true}, {"entity": "PHONE", "start": 34, "end": 50, "known": true}]}
+{"id": "S0003", "kind": "negative", "text": "Ticket 123456789012 was closed by the service desk.", "spans": []}
+{"id": "S0004", "kind": "positive", "text": "Config note: password=VCFAKE-c3r40utoi4t17b must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0005", "kind": "positive", "text": "Customer Omar Example called from +353.00.000.5045.", "spans": [{"entity": "PERSON", "start": 9, "end": 21, "known": true}, {"entity": "PHONE", "start": 34, "end": 50, "known": true}]}
+{"id": "S0006", "kind": "evasion", "text": "Mail kian (dot) example (at) example (dot) net today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 46, "known": true}]}
+{"id": "S0007", "kind": "positive", "text": "Customer Hugo Example called from +353.00.000.8638.", "spans": [{"entity": "PERSON", "start": 9, "end": 21, "known": true}, {"entity": "PHONE", "start": 34, "end": 50, "known": true}]}
+{"id": "S0008", "kind": "positive", "text": "Config note: password=VCFAKE-ic6ym2hptd5nw8 must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0009", "kind": "evasion", "text": "Mail m a y a @ e x a m p l e . c o m today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 36, "known": false}]}
+{"id": "S0010", "kind": "positive", "text": "Reach Percy Lindqvist on (00) 000 6445.", "spans": [{"entity": "PERSON", "start": 6, "end": 21, "known": false}, {"entity": "PHONE", "start": 25, "end": 38, "known": true}]}
+{"id": "S0011", "kind": "negative", "text": "Meeting @ 5 pm . Thanks", "spans": []}
+{"id": "S0012", "kind": "positive", "text": "Authorization: Bearer VCFAKE-jttkry9lvpwu8aABCDEF", "spans": [{"entity": "SECRET", "start": 22, "end": 49, "known": true}]}
+{"id": "S0013", "kind": "positive", "text": "Customer Noah Example called from +353 00 000 7261.", "spans": [{"entity": "PERSON", "start": 9, "end": 21, "known": true}, {"entity": "PHONE", "start": 34, "end": 50, "known": true}]}
+{"id": "S0014", "kind": "evasion", "text": "Mail kian @ example . com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 25, "known": true}]}
+{"id": "S0015", "kind": "positive", "text": "Set api_key: VCFAKE-3b758w9qqeidku in the staging file.", "spans": [{"entity": "SECRET", "start": 13, "end": 34, "known": true}]}
+{"id": "S0016", "kind": "positive", "text": "Card on file: 4111111111111111 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 30, "known": true}]}
+{"id": "S0017", "kind": "positive", "text": "Set api_key: VCFAKE-fopk0eyymmjual in the staging file.", "spans": [{"entity": "SECRET", "start": 13, "end": 34, "known": true}]}
+{"id": "S0018", "kind": "positive", "text": "Please send the report to luca.fictional@example.org by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 52, "known": true}]}
+{"id": "S0019", "kind": "positive", "text": "Escalated record REC-234 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0020", "kind": "positive", "text": "Forward to OSCAR.DUMMY@EXAMPLE.NET and copy noah.fictional+tag@example.org.", "spans": [{"entity": "EMAIL", "start": 11, "end": 34, "known": true}, {"entity": "EMAIL", "start": 44, "end": 74, "known": true}]}
+{"id": "S0021", "kind": "negative", "text": "Order ORD-20261107-0042 shipped on 2026-11-07 at 12:30:45.", "spans": []}
+{"id": "S0022", "kind": "positive", "text": "Forward to ESME.PLACEHOLDER@EXAMPLE.NET and copy arjun.trainee+tag@example.com.", "spans": [{"entity": "EMAIL", "start": 11, "end": 39, "known": true}, {"entity": "EMAIL", "start": 49, "end": 78, "known": true}]}
+{"id": "S0023", "kind": "evasion", "text": "Mail ma\u200bya.exa\u200bmple@example.com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 31, "known": true}]}
+{"id": "S0024", "kind": "positive", "text": "Reach Odile Whitlock on 00-000-7195.", "spans": [{"entity": "PERSON", "start": 6, "end": 20, "known": false}, {"entity": "PHONE", "start": 24, "end": 35, "known": true}]}
+{"id": "S0025", "kind": "evasion", "text": "Mail maya dot example at example dot com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 40, "known": false}]}
+{"id": "S0026", "kind": "negative", "text": "Invoice number 4488 0823 8683 3375 was approved.", "spans": []}
+{"id": "S0027", "kind": "positive", "text": "Authorization: Bearer VCFAKE-zczac13fu7296nABCDEF", "spans": [{"entity": "SECRET", "start": 22, "end": 49, "known": true}]}
+{"id": "S0028", "kind": "positive", "text": "Set api_key: VCFAKE-8tz839701cjvgy in the staging file.", "spans": [{"entity": "SECRET", "start": 13, "end": 34, "known": true}]}
+{"id": "S0029", "kind": "negative", "text": "Order ORD-20261107-0042 shipped on 2026-11-07 at 12:30:45.", "spans": []}
+{"id": "S0030", "kind": "positive", "text": "Config note: password=VCFAKE-1tylpvjxrntmvi must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0031", "kind": "evasion", "text": "Call \uff0b\uff13\uff15\uff13\uff0d\uff10\uff10\uff0d\uff10\uff10\uff10\uff0d\uff10\uff10\uff10\uff12 now.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0032", "kind": "evasion", "text": "Mail ma\u200bya.exa\u200bmple@example.com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 31, "known": true}]}
+{"id": "S0033", "kind": "evasion", "text": "Mail m a y a @ e x a m p l e . c o m today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 36, "known": false}]}
+{"id": "S0034", "kind": "evasion", "text": "Mail moc.elpmaxe@aym today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 20, "known": false}]}
+{"id": "S0035", "kind": "evasion", "text": "Mail ma\u200bya.exa\u200bmple@example.com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 31, "known": true}]}
+{"id": "S0036", "kind": "positive", "text": "Card on file: 4111-1111-1111-1111 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 33, "known": true}]}
+{"id": "S0037", "kind": "evasion", "text": "Mail dev (dot) placeholder (at) example (dot) org today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 49, "known": true}]}
+{"id": "S0038", "kind": "positive", "text": "Please send the report to esme.placeholder@example.net by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 54, "known": true}]}
+{"id": "S0039", "kind": "evasion", "text": "Mail ezra[dot]example[at]example[dot]net today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 40, "known": true}]}
+{"id": "S0040", "kind": "negative", "text": "Order ORD-20261107-0042 shipped on 2026-11-07 at 12:30:45.", "spans": []}
+{"id": "S0041", "kind": "evasion", "text": "Mail ezra[dot]example[at]example[dot]net today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 40, "known": true}]}
+{"id": "S0042", "kind": "positive", "text": "Forward to SAMI.FICTIONAL@EXAMPLE.ORG and copy oscar.testcase+tag@example.com.", "spans": [{"entity": "EMAIL", "start": 11, "end": 37, "known": true}, {"entity": "EMAIL", "start": 47, "end": 77, "known": true}]}
+{"id": "S0043", "kind": "positive", "text": "Call +353-00-000-3724 for follow-up.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0044", "kind": "evasion", "text": "Call \uff0b\uff13\uff15\uff13\uff0d\uff10\uff10\uff0d\uff10\uff10\uff10\uff0d\uff10\uff10\uff10\uff12 now.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0045", "kind": "positive", "text": "Card on file: 6011 1111 1111 1117 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 33, "known": true}]}
+{"id": "S0046", "kind": "positive", "text": "Forward to EZRA.TRAINEE@EXAMPLE.NET and copy wren.mockup+tag@example.com.", "spans": [{"entity": "EMAIL", "start": 11, "end": 35, "known": true}, {"entity": "EMAIL", "start": 45, "end": 72, "known": true}]}
+{"id": "S0047", "kind": "evasion", "text": "Call \uff0b\uff13\uff15\uff13\uff0d\uff10\uff10\uff0d\uff10\uff10\uff10\uff0d\uff10\uff10\uff10\uff12 now.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0048", "kind": "evasion", "text": "Mail moc.elpmaxe@aym today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 20, "known": false}]}
+{"id": "S0049", "kind": "evasion", "text": "Mail milo @ example . com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 25, "known": true}]}
+{"id": "S0050", "kind": "evasion", "text": "Mail maya dot example at example dot com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 40, "known": false}]}
+{"id": "S0051", "kind": "evasion", "text": "Mail leo[dot]dummy[at]example[dot]com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 37, "known": true}]}
+{"id": "S0052", "kind": "positive", "text": "Forward to IDRIS.DEMO@EXAMPLE.NET and copy hana.demo+tag@example.net.", "spans": [{"entity": "EMAIL", "start": 11, "end": 33, "known": true}, {"entity": "EMAIL", "start": 43, "end": 68, "known": true}]}
+{"id": "S0053", "kind": "positive", "text": "Reach Percy Okafor on 00 000 9510.", "spans": [{"entity": "PERSON", "start": 6, "end": 18, "known": false}, {"entity": "PHONE", "start": 22, "end": 33, "known": true}]}
+{"id": "S0054", "kind": "positive", "text": "Reach Odile Marchetti on (00) 000 6335.", "spans": [{"entity": "PERSON", "start": 6, "end": 21, "known": false}, {"entity": "PHONE", "start": 25, "end": 38, "known": true}]}
+{"id": "S0055", "kind": "positive", "text": "Contact Omar Example at sami.example@example.net about the invoice.", "spans": [{"entity": "PERSON", "start": 8, "end": 20, "known": true}, {"entity": "EMAIL", "start": 24, "end": 48, "known": true}]}
+{"id": "S0056", "kind": "positive", "text": "Please send the report to boris.demo@example.net by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 48, "known": true}]}
+{"id": "S0057", "kind": "positive", "text": "Config note: password=VCFAKE-gcbioaw957dme7 must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0058", "kind": "evasion", "text": "Mail ma\u200bya.exa\u200bmple@example.com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 31, "known": true}]}
+{"id": "S0059", "kind": "positive", "text": "Reach Imogen Lindqvist on 00-000-9565.", "spans": [{"entity": "PERSON", "start": 6, "end": 22, "known": false}, {"entity": "PHONE", "start": 26, "end": 37, "known": true}]}
+{"id": "S0060", "kind": "negative", "text": "Meeting @ 5 pm . Thanks", "spans": []}
+{"id": "S0061", "kind": "positive", "text": "Reach Odile Lindqvist on 00-000-1783.", "spans": [{"entity": "PERSON", "start": 6, "end": 21, "known": false}, {"entity": "PHONE", "start": 25, "end": 36, "known": true}]}
+{"id": "S0062", "kind": "evasion", "text": "Mail cleo @ example . com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 25, "known": true}]}
+{"id": "S0063", "kind": "negative", "text": "Password: required for all accounts; password policy applies.", "spans": []}
+{"id": "S0064", "kind": "positive", "text": "Customer Hugo Example called from +353.00.000.4456.", "spans": [{"entity": "PERSON", "start": 9, "end": 21, "known": true}, {"entity": "PHONE", "start": 34, "end": 50, "known": true}]}
+{"id": "S0065", "kind": "positive", "text": "Please send the report to priya.example@example.org by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 51, "known": true}]}
+{"id": "S0066", "kind": "evasion", "text": "Call \uff0b\uff13\uff15\uff13\uff0d\uff10\uff10\uff0d\uff10\uff10\uff10\uff0d\uff10\uff10\uff10\uff12 now.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0067", "kind": "negative", "text": "Quarterly review scheduled for 2026-12-03; no personal data involved.", "spans": []}
+{"id": "S0068", "kind": "positive", "text": "Authorization: Bearer VCFAKE-17yzfmlxn7dpgsABCDEF", "spans": [{"entity": "SECRET", "start": 22, "end": 49, "known": true}]}
+{"id": "S0069", "kind": "positive", "text": "Forward to TALIA.SPECIMEN@EXAMPLE.ORG and copy rory.sample+tag@example.com.", "spans": [{"entity": "EMAIL", "start": 11, "end": 37, "known": true}, {"entity": "EMAIL", "start": 47, "end": 74, "known": true}]}
+{"id": "S0070", "kind": "negative", "text": "Order ORD-20261107-0042 shipped on 2026-11-07 at 12:30:45.", "spans": []}
+{"id": "S0071", "kind": "negative", "text": "Quarterly review scheduled for 2026-12-03; no personal data involved.", "spans": []}
+{"id": "S0072", "kind": "negative", "text": "Invoice number 4146 4031 1338 4762 was approved.", "spans": []}
+{"id": "S0073", "kind": "positive", "text": "Customer Hugo Example called from +353.00.000.3022.", "spans": [{"entity": "PERSON", "start": 9, "end": 21, "known": true}, {"entity": "PHONE", "start": 34, "end": 50, "known": true}]}
+{"id": "S0074", "kind": "negative", "text": "Invoice number 4308 1184 4845 7404 was approved.", "spans": []}
+{"id": "S0075", "kind": "positive", "text": "Contact Omar Example at tomas.testcase@example.net about the invoice.", "spans": [{"entity": "PERSON", "start": 8, "end": 20, "known": true}, {"entity": "EMAIL", "start": 24, "end": 50, "known": true}]}
+{"id": "S0076", "kind": "negative", "text": "Order ORD-20261107-0042 shipped on 2026-11-07 at 12:30:45.", "spans": []}
+{"id": "S0077", "kind": "negative", "text": "Password: required for all accounts; password policy applies.", "spans": []}
+{"id": "S0078", "kind": "evasion", "text": "Mail talia (dot) dummy (at) example (dot) com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 45, "known": true}]}
+{"id": "S0079", "kind": "negative", "text": "Ticket 123456789012 was closed by the service desk.", "spans": []}
+{"id": "S0080", "kind": "negative", "text": "Order ORD-20261107-0042 shipped on 2026-11-07 at 12:30:45.", "spans": []}
+{"id": "S0081", "kind": "negative", "text": "Order ORD-20261107-0042 shipped on 2026-11-07 at 12:30:45.", "spans": []}
+{"id": "S0082", "kind": "positive", "text": "Card on file: 4111 1111 1111 1111 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 33, "known": true}]}
+{"id": "S0083", "kind": "positive", "text": "Config note: password=VCFAKE-dydyo1u7q8qum3 must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0084", "kind": "positive", "text": "Forward to LILA.EXAMPLE@EXAMPLE.ORG and copy ezra.example+tag@example.net.", "spans": [{"entity": "EMAIL", "start": 11, "end": 35, "known": true}, {"entity": "EMAIL", "start": 45, "end": 73, "known": true}]}
+{"id": "S0085", "kind": "negative", "text": "Part number 12-345-6789 is back-ordered.", "spans": []}
+{"id": "S0086", "kind": "positive", "text": "Reach Odile Whitlock on (00) 000 7109.", "spans": [{"entity": "PERSON", "start": 6, "end": 20, "known": false}, {"entity": "PHONE", "start": 24, "end": 37, "known": true}]}
+{"id": "S0087", "kind": "negative", "text": "The email policy requires encryption and the phone line is busy.", "spans": []}
+{"id": "S0088", "kind": "negative", "text": "Quarterly review scheduled for 2026-12-03; no personal data involved.", "spans": []}
+{"id": "S0089", "kind": "negative", "text": "Password: required for all accounts; password policy applies.", "spans": []}
+{"id": "S0090", "kind": "negative", "text": "Part number 12-345-6789 is back-ordered.", "spans": []}
+{"id": "S0091", "kind": "evasion", "text": "Call \uff0b\uff13\uff15\uff13\uff0d\uff10\uff10\uff0d\uff10\uff10\uff10\uff0d\uff10\uff10\uff10\uff12 now.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0092", "kind": "negative", "text": "Password: required for all accounts; password policy applies.", "spans": []}
+{"id": "S0093", "kind": "evasion", "text": "Mail esme[dot]fictional[at]example[dot]org today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 42, "known": true}]}
+{"id": "S0094", "kind": "positive", "text": "Card on file: 3782 8224 6310 005 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 32, "known": true}]}
+{"id": "S0095", "kind": "negative", "text": "Ticket 123456789012 was closed by the service desk.", "spans": []}
+{"id": "S0096", "kind": "negative", "text": "Invoice number 4175 1701 9167 0359 was approved.", "spans": []}
+{"id": "S0097", "kind": "positive", "text": "Forward to HUGO.FICTIONAL@EXAMPLE.ORG and copy kian.example+tag@example.net.", "spans": [{"entity": "EMAIL", "start": 11, "end": 37, "known": true}, {"entity": "EMAIL", "start": 47, "end": 75, "known": true}]}
+{"id": "S0098", "kind": "positive", "text": "Card on file: 6011111111111117 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 30, "known": true}]}
+{"id": "S0099", "kind": "positive", "text": "Forward to ARJUN.MOCKUP@EXAMPLE.ORG and copy nora.testcase+tag@example.net.", "spans": [{"entity": "EMAIL", "start": 11, "end": 35, "known": true}, {"entity": "EMAIL", "start": 45, "end": 74, "known": true}]}
+{"id": "S0100", "kind": "positive", "text": "Config note: password=VCFAKE-vlzoec4alcqimc must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0101", "kind": "positive", "text": "Please send the report to yara.dummy@example.com by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 48, "known": true}]}
+{"id": "S0102", "kind": "positive", "text": "Forward to PRIYA.TRAINEE@EXAMPLE.ORG and copy arjun.testcase+tag@example.org.", "spans": [{"entity": "EMAIL", "start": 11, "end": 36, "known": true}, {"entity": "EMAIL", "start": 46, "end": 76, "known": true}]}
+{"id": "S0103", "kind": "positive", "text": "Config note: password=VCFAKE-e6pn9rlzrnxoi0 must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0104", "kind": "positive", "text": "Escalated record REC-814 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0105", "kind": "evasion", "text": "Mail maya dot example at example dot com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 40, "known": false}]}
+{"id": "S0106", "kind": "evasion", "text": "Mail m a y a @ e x a m p l e . c o m today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 36, "known": false}]}
+{"id": "S0107", "kind": "negative", "text": "Server 192.168.10.25 rebooted; version 3.12.4 installed.", "spans": []}
+{"id": "S0108", "kind": "negative", "text": "Meeting @ 5 pm . Thanks", "spans": []}
+{"id": "S0109", "kind": "negative", "text": "Ticket 123456789012 was closed by the service desk.", "spans": []}
+{"id": "S0110", "kind": "positive", "text": "Call +353 00 000 4124 for follow-up.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0111", "kind": "positive", "text": "Customer Leo Example called from +353.00.000.6315.", "spans": [{"entity": "PERSON", "start": 9, "end": 20, "known": true}, {"entity": "PHONE", "start": 33, "end": 49, "known": true}]}
+{"id": "S0112", "kind": "positive", "text": "Customer Zara Example called from +353-00-000-9435.", "spans": [{"entity": "PERSON", "start": 9, "end": 21, "known": true}, {"entity": "PHONE", "start": 34, "end": 50, "known": true}]}
+{"id": "S0113", "kind": "evasion", "text": "Mail maya dot example at example dot com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 40, "known": false}]}
+{"id": "S0114", "kind": "positive", "text": "Please send the report to noah.testcase@example.com by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 51, "known": true}]}
+{"id": "S0115", "kind": "positive", "text": "Forward to KIAN.EXAMPLE@EXAMPLE.NET and copy milo.specimen+tag@example.net.", "spans": [{"entity": "EMAIL", "start": 11, "end": 35, "known": true}, {"entity": "EMAIL", "start": 45, "end": 74, "known": true}]}
+{"id": "S0116", "kind": "positive", "text": "Set api_key: VCFAKE-m9x0konpb8wl5v in the staging file.", "spans": [{"entity": "SECRET", "start": 13, "end": 34, "known": true}]}
+{"id": "S0117", "kind": "positive", "text": "Please send the report to rory.testcase@example.net by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 51, "known": true}]}
+{"id": "S0118", "kind": "positive", "text": "Escalated record REC-899 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0119", "kind": "negative", "text": "Part number 12-345-6789 is back-ordered.", "spans": []}
+{"id": "S0120", "kind": "evasion", "text": "Call \uff0b\uff13\uff15\uff13\uff0d\uff10\uff10\uff0d\uff10\uff10\uff10\uff0d\uff10\uff10\uff10\uff12 now.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0121", "kind": "negative", "text": "Password: required for all accounts; password policy applies.", "spans": []}
+{"id": "S0122", "kind": "evasion", "text": "Mail elsa @ example . com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 25, "known": true}]}
+{"id": "S0123", "kind": "negative", "text": "Server 192.168.10.25 rebooted; version 3.12.4 installed.", "spans": []}
+{"id": "S0124", "kind": "evasion", "text": "Mail m a y a @ e x a m p l e . c o m today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 36, "known": false}]}
+{"id": "S0125", "kind": "positive", "text": "Reach Bram Whitlock on (00) 000 5078.", "spans": [{"entity": "PERSON", "start": 6, "end": 19, "known": false}, {"entity": "PHONE", "start": 23, "end": 36, "known": true}]}
+{"id": "S0126", "kind": "positive", "text": "Forward to CLEO.PLACEHOLDER@EXAMPLE.ORG and copy lena.demo+tag@example.org.", "spans": [{"entity": "EMAIL", "start": 11, "end": 39, "known": true}, {"entity": "EMAIL", "start": 49, "end": 74, "known": true}]}
+{"id": "S0127", "kind": "positive", "text": "Escalated record REC-223 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0128", "kind": "negative", "text": "Server 192.168.10.25 rebooted; version 3.12.4 installed.", "spans": []}
+{"id": "S0129", "kind": "negative", "text": "Meeting @ 5 pm . Thanks", "spans": []}
+{"id": "S0130", "kind": "positive", "text": "Please send the report to lena.mockup@example.com by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 49, "known": true}]}
+{"id": "S0131", "kind": "negative", "text": "Ticket 123456789012 was closed by the service desk.", "spans": []}
+{"id": "S0132", "kind": "negative", "text": "Server 192.168.10.25 rebooted; version 3.12.4 installed.", "spans": []}
+{"id": "S0133", "kind": "positive", "text": "Please send the report to priya.demo@example.com by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 48, "known": true}]}
+{"id": "S0134", "kind": "negative", "text": "Server 192.168.10.25 rebooted; version 3.12.4 installed.", "spans": []}
+{"id": "S0135", "kind": "positive", "text": "Forward to MAYA.SAMPLE@EXAMPLE.NET and copy sami.dummy+tag@example.net.", "spans": [{"entity": "EMAIL", "start": 11, "end": 34, "known": true}, {"entity": "EMAIL", "start": 44, "end": 70, "known": true}]}
+{"id": "S0136", "kind": "negative", "text": "Part number 12-345-6789 is back-ordered.", "spans": []}
+{"id": "S0137", "kind": "positive", "text": "Authorization: Bearer VCFAKE-uss5xwqbrw6r5iABCDEF", "spans": [{"entity": "SECRET", "start": 22, "end": 49, "known": true}]}
+{"id": "S0138", "kind": "negative", "text": "Order ORD-20261107-0042 shipped on 2026-11-07 at 12:30:45.", "spans": []}
+{"id": "S0139", "kind": "positive", "text": "Authorization: Bearer VCFAKE-5sbjj3f53blmkpABCDEF", "spans": [{"entity": "SECRET", "start": 22, "end": 49, "known": true}]}
+{"id": "S0140", "kind": "negative", "text": "Ticket 123456789012 was closed by the service desk.", "spans": []}
+{"id": "S0141", "kind": "evasion", "text": "Mail ma\u200bya.exa\u200bmple@example.com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 31, "known": true}]}
+{"id": "S0142", "kind": "positive", "text": "Reach Imogen Marchetti on (00) 000 2489.", "spans": [{"entity": "PERSON", "start": 6, "end": 22, "known": false}, {"entity": "PHONE", "start": 26, "end": 39, "known": true}]}
+{"id": "S0143", "kind": "positive", "text": "Call +353.00.000.5943 for follow-up.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0144", "kind": "positive", "text": "Escalated record REC-556 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0145", "kind": "positive", "text": "Reach Bram Whitlock on 00 000 2429.", "spans": [{"entity": "PERSON", "start": 6, "end": 19, "known": false}, {"entity": "PHONE", "start": 23, "end": 34, "known": true}]}
+{"id": "S0146", "kind": "positive", "text": "Call +353.00.000.1586 for follow-up.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0147", "kind": "positive", "text": "Forward to ANYA.EXAMPLE@EXAMPLE.NET and copy aria.specimen+tag@example.net.", "spans": [{"entity": "EMAIL", "start": 11, "end": 35, "known": true}, {"entity": "EMAIL", "start": 45, "end": 74, "known": true}]}
+{"id": "S0148", "kind": "negative", "text": "Order ORD-20261107-0042 shipped on 2026-11-07 at 12:30:45.", "spans": []}
+{"id": "S0149", "kind": "positive", "text": "Reach Imogen Okafor on (00) 000 4345.", "spans": [{"entity": "PERSON", "start": 6, "end": 19, "known": false}, {"entity": "PHONE", "start": 23, "end": 36, "known": true}]}
+{"id": "S0150", "kind": "positive", "text": "Config note: password=VCFAKE-bapd89hzr79sja must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0151", "kind": "positive", "text": "Escalated record REC-948 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0152", "kind": "positive", "text": "Contact Maya Example at cleo.sample@example.com about the invoice.", "spans": [{"entity": "PERSON", "start": 8, "end": 20, "known": true}, {"entity": "EMAIL", "start": 24, "end": 47, "known": true}]}
+{"id": "S0153", "kind": "positive", "text": "Card on file: 4012-8888-8888-1881 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 33, "known": true}]}
+{"id": "S0154", "kind": "positive", "text": "Set api_key: VCFAKE-v0yw4e5qg4v6wd in the staging file.", "spans": [{"entity": "SECRET", "start": 13, "end": 34, "known": true}]}
+{"id": "S0155", "kind": "positive", "text": "Reach Odile Marchetti on 00-000-7855.", "spans": [{"entity": "PERSON", "start": 6, "end": 21, "known": false}, {"entity": "PHONE", "start": 25, "end": 36, "known": true}]}
+{"id": "S0156", "kind": "positive", "text": "Please send the report to talia.testcase@example.org by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 52, "known": true}]}
+{"id": "S0157", "kind": "evasion", "text": "Mail priya[dot]example[at]example[dot]org today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 41, "known": true}]}
+{"id": "S0158", "kind": "positive", "text": "Call +353.00.000.0827 for follow-up.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0159", "kind": "evasion", "text": "Mail ma\u200bya.exa\u200bmple@example.com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 31, "known": true}]}
+{"id": "S0160", "kind": "positive", "text": "Call +353.00.000.8937 for follow-up.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0161", "kind": "positive", "text": "Config note: password=VCFAKE-8j9lqao18tbf51 must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0162", "kind": "positive", "text": "Forward to NOAH.EXAMPLE@EXAMPLE.NET and copy elsa.example+tag@example.net.", "spans": [{"entity": "EMAIL", "start": 11, "end": 35, "known": true}, {"entity": "EMAIL", "start": 45, "end": 73, "known": true}]}
+{"id": "S0163", "kind": "positive", "text": "Customer Zara Example called from +353.00.000.1390.", "spans": [{"entity": "PERSON", "start": 9, "end": 21, "known": true}, {"entity": "PHONE", "start": 34, "end": 50, "known": true}]}
+{"id": "S0164", "kind": "positive", "text": "Reach Bram Lindqvist on (00) 000 5493.", "spans": [{"entity": "PERSON", "start": 6, "end": 20, "known": false}, {"entity": "PHONE", "start": 24, "end": 37, "known": true}]}
+{"id": "S0165", "kind": "positive", "text": "Customer Noah Example called from +353 00 000 4952.", "spans": [{"entity": "PERSON", "start": 9, "end": 21, "known": true}, {"entity": "PHONE", "start": 34, "end": 50, "known": true}]}
+{"id": "S0166", "kind": "evasion", "text": "Call \uff0b\uff13\uff15\uff13\uff0d\uff10\uff10\uff0d\uff10\uff10\uff10\uff0d\uff10\uff10\uff10\uff12 now.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0167", "kind": "positive", "text": "Escalated record REC-861 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0168", "kind": "positive", "text": "Reach Imogen Marchetti on (00) 000 2271.", "spans": [{"entity": "PERSON", "start": 6, "end": 22, "known": false}, {"entity": "PHONE", "start": 26, "end": 39, "known": true}]}
+{"id": "S0169", "kind": "evasion", "text": "Mail m a y a @ e x a m p l e . c o m today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 36, "known": false}]}
+{"id": "S0170", "kind": "positive", "text": "Card on file: 3782 8224 6310 005 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 32, "known": true}]}
+{"id": "S0171", "kind": "negative", "text": "Invoice number 4219 1417 4717 5806 was approved.", "spans": []}
+{"id": "S0172", "kind": "positive", "text": "Escalated record REC-688 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0173", "kind": "positive", "text": "Card on file: 4111111111111111 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 30, "known": true}]}
+{"id": "S0174", "kind": "positive", "text": "Config note: password=VCFAKE-t5xcuadfdx10z4 must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0175", "kind": "positive", "text": "Contact Noah Example at aria.mockup@example.net about the invoice.", "spans": [{"entity": "PERSON", "start": 8, "end": 20, "known": true}, {"entity": "EMAIL", "start": 24, "end": 47, "known": true}]}
+{"id": "S0176", "kind": "evasion", "text": "Mail maya dot example at example dot com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 40, "known": false}]}
+{"id": "S0177", "kind": "positive", "text": "Please send the report to wren.testcase@example.com by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 51, "known": true}]}
+{"id": "S0178", "kind": "positive", "text": "Call +353 00 000 3995 for follow-up.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0179", "kind": "negative", "text": "Invoice number 4112 6711 6832 5881 was approved.", "spans": []}
+{"id": "S0180", "kind": "positive", "text": "Reach Quentin Whitlock on 00 000 1015.", "spans": [{"entity": "PERSON", "start": 6, "end": 22, "known": false}, {"entity": "PHONE", "start": 26, "end": 37, "known": true}]}
+{"id": "S0181", "kind": "negative", "text": "Password: required for all accounts; password policy applies.", "spans": []}
+{"id": "S0182", "kind": "evasion", "text": "Mail mira[dot]trainee[at]example[dot]org today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 40, "known": true}]}
+{"id": "S0183", "kind": "negative", "text": "The Example department updated the Sample procedure.", "spans": []}
+{"id": "S0184", "kind": "positive", "text": "Contact Ivy Example at nina.sample@example.net about the invoice.", "spans": [{"entity": "PERSON", "start": 8, "end": 19, "known": true}, {"entity": "EMAIL", "start": 23, "end": 46, "known": true}]}
+{"id": "S0185", "kind": "negative", "text": "Order ORD-20261107-0042 shipped on 2026-11-07 at 12:30:45.", "spans": []}
+{"id": "S0186", "kind": "evasion", "text": "Mail moc.elpmaxe@aym today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 20, "known": false}]}
+{"id": "S0187", "kind": "positive", "text": "Escalated record REC-842 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0188", "kind": "evasion", "text": "Mail aria (dot) sample (at) example (dot) com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 45, "known": true}]}
+{"id": "S0189", "kind": "positive", "text": "Call +353-00-000-2395 for follow-up.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0190", "kind": "positive", "text": "Authorization: Bearer VCFAKE-umelou8h8g0fikABCDEF", "spans": [{"entity": "SECRET", "start": 22, "end": 49, "known": true}]}
+{"id": "S0191", "kind": "negative", "text": "Meeting @ 5 pm . Thanks", "spans": []}
+{"id": "S0192", "kind": "positive", "text": "Authorization: Bearer VCFAKE-lzrvq2lea8qu2bABCDEF", "spans": [{"entity": "SECRET", "start": 22, "end": 49, "known": true}]}
+{"id": "S0193", "kind": "positive", "text": "Card on file: 3782-8224-6310-005 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 32, "known": true}]}
+{"id": "S0194", "kind": "positive", "text": "Contact Leo Example at arjun.dummy@example.com about the invoice.", "spans": [{"entity": "PERSON", "start": 8, "end": 19, "known": true}, {"entity": "EMAIL", "start": 23, "end": 46, "known": true}]}
+{"id": "S0195", "kind": "positive", "text": "Contact Ivy Example at theo.dummy@example.com about the invoice.", "spans": [{"entity": "PERSON", "start": 8, "end": 19, "known": true}, {"entity": "EMAIL", "start": 23, "end": 45, "known": true}]}
+{"id": "S0196", "kind": "positive", "text": "Please send the report to tomas.mockup@example.net by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 50, "known": true}]}
+{"id": "S0197", "kind": "positive", "text": "Customer Aria Example called from +353.00.000.1406.", "spans": [{"entity": "PERSON", "start": 9, "end": 21, "known": true}, {"entity": "PHONE", "start": 34, "end": 50, "known": true}]}
+{"id": "S0198", "kind": "negative", "text": "The Example department updated the Sample procedure.", "spans": []}
+{"id": "S0199", "kind": "negative", "text": "Password: required for all accounts; password policy applies.", "spans": []}
+{"id": "S0200", "kind": "positive", "text": "Forward to RORY.TRAINEE@EXAMPLE.ORG and copy ravi.fictional+tag@example.com.", "spans": [{"entity": "EMAIL", "start": 11, "end": 35, "known": true}, {"entity": "EMAIL", "start": 45, "end": 75, "known": true}]}
+{"id": "S0201", "kind": "positive", "text": "Reach Percy Marchetti on 00-000-3665.", "spans": [{"entity": "PERSON", "start": 6, "end": 21, "known": false}, {"entity": "PHONE", "start": 25, "end": 36, "known": true}]}
+{"id": "S0202", "kind": "positive", "text": "Please send the report to ravi.sample@example.com by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 49, "known": true}]}
+{"id": "S0203", "kind": "positive", "text": "Call +353 00 000 8481 for follow-up.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0204", "kind": "evasion", "text": "Mail dev (dot) dummy (at) example (dot) org today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 43, "known": true}]}
+{"id": "S0205", "kind": "positive", "text": "Forward to ARIA.SAMPLE@EXAMPLE.COM and copy leo.sample+tag@example.net.", "spans": [{"entity": "EMAIL", "start": 11, "end": 34, "known": true}, {"entity": "EMAIL", "start": 44, "end": 70, "known": true}]}
+{"id": "S0206", "kind": "negative", "text": "Invoice number 4437 2592 1778 7789 was approved.", "spans": []}
+{"id": "S0207", "kind": "positive", "text": "Set api_key: VCFAKE-uav1o9c9tnl777 in the staging file.", "spans": [{"entity": "SECRET", "start": 13, "end": 34, "known": true}]}
+{"id": "S0208", "kind": "negative", "text": "Order ORD-20261107-0042 shipped on 2026-11-07 at 12:30:45.", "spans": []}
+{"id": "S0209", "kind": "negative", "text": "Meeting @ 5 pm . Thanks", "spans": []}
+{"id": "S0210", "kind": "positive", "text": "Forward to DEV.PLACEHOLDER@EXAMPLE.ORG and copy cleo.dummy+tag@example.org.", "spans": [{"entity": "EMAIL", "start": 11, "end": 38, "known": true}, {"entity": "EMAIL", "start": 48, "end": 74, "known": true}]}
+{"id": "S0211", "kind": "negative", "text": "Quarterly review scheduled for 2026-12-03; no personal data involved.", "spans": []}
+{"id": "S0212", "kind": "evasion", "text": "Mail idris[dot]demo[at]example[dot]net today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 38, "known": true}]}
+{"id": "S0213", "kind": "positive", "text": "Config note: password=VCFAKE-enwqnmi4z19qko must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0214", "kind": "evasion", "text": "Mail aria @ example . com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 25, "known": true}]}
+{"id": "S0215", "kind": "positive", "text": "Forward to RORY.MOCKUP@EXAMPLE.NET and copy rory.placeholder+tag@example.org.", "spans": [{"entity": "EMAIL", "start": 11, "end": 34, "known": true}, {"entity": "EMAIL", "start": 44, "end": 76, "known": true}]}
+{"id": "S0216", "kind": "positive", "text": "Card on file: 4012888888881881 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 30, "known": true}]}
+{"id": "S0217", "kind": "positive", "text": "Call +353.00.000.3941 for follow-up.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0218", "kind": "negative", "text": "The email policy requires encryption and the phone line is busy.", "spans": []}
+{"id": "S0219", "kind": "positive", "text": "Set api_key: VCFAKE-ucb8m1t8uzwot2 in the staging file.", "spans": [{"entity": "SECRET", "start": 13, "end": 34, "known": true}]}
+{"id": "S0220", "kind": "negative", "text": "Part number 12-345-6789 is back-ordered.", "spans": []}
+{"id": "S0221", "kind": "negative", "text": "The email policy requires encryption and the phone line is busy.", "spans": []}
+{"id": "S0222", "kind": "evasion", "text": "Mail m a y a @ e x a m p l e . c o m today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 36, "known": false}]}
+{"id": "S0223", "kind": "positive", "text": "Reach Odile Okafor on (00) 000 1414.", "spans": [{"entity": "PERSON", "start": 6, "end": 18, "known": false}, {"entity": "PHONE", "start": 22, "end": 35, "known": true}]}
+{"id": "S0224", "kind": "evasion", "text": "Mail m a y a @ e x a m p l e . c o m today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 36, "known": false}]}
+{"id": "S0225", "kind": "positive", "text": "Card on file: 378282246310005 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 29, "known": true}]}
+{"id": "S0226", "kind": "negative", "text": "Ticket 123456789012 was closed by the service desk.", "spans": []}
+{"id": "S0227", "kind": "positive", "text": "Config note: password=VCFAKE-i6hj6yw19btfyy must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0228", "kind": "positive", "text": "Config note: password=VCFAKE-tub1wgkfatmkmg must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0229", "kind": "positive", "text": "Reach Percy Lindqvist on 00-000-2607.", "spans": [{"entity": "PERSON", "start": 6, "end": 21, "known": false}, {"entity": "PHONE", "start": 25, "end": 36, "known": true}]}
+{"id": "S0230", "kind": "positive", "text": "Escalated record REC-841 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0231", "kind": "positive", "text": "Card on file: 5555 5555 5555 4444 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 33, "known": true}]}
+{"id": "S0232", "kind": "positive", "text": "Forward to TALIA.FICTIONAL@EXAMPLE.NET and copy nina.mockup+tag@example.org.", "spans": [{"entity": "EMAIL", "start": 11, "end": 38, "known": true}, {"entity": "EMAIL", "start": 48, "end": 75, "known": true}]}
+{"id": "S0233", "kind": "positive", "text": "Forward to WREN.FICTIONAL@EXAMPLE.ORG and copy idris.sample+tag@example.net.", "spans": [{"entity": "EMAIL", "start": 11, "end": 37, "known": true}, {"entity": "EMAIL", "start": 47, "end": 75, "known": true}]}
+{"id": "S0234", "kind": "positive", "text": "Authorization: Bearer VCFAKE-ususcq0uvf8r8rABCDEF", "spans": [{"entity": "SECRET", "start": 22, "end": 49, "known": true}]}
+{"id": "S0235", "kind": "positive", "text": "Escalated record REC-191 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0236", "kind": "positive", "text": "Authorization: Bearer VCFAKE-l1b178tgusd5xuABCDEF", "spans": [{"entity": "SECRET", "start": 22, "end": 49, "known": true}]}
+{"id": "S0237", "kind": "positive", "text": "Forward to OMAR.TRAINEE@EXAMPLE.ORG and copy oscar.demo+tag@example.org.", "spans": [{"entity": "EMAIL", "start": 11, "end": 35, "known": true}, {"entity": "EMAIL", "start": 45, "end": 71, "known": true}]}
+{"id": "S0238", "kind": "positive", "text": "Reach Odile Lindqvist on 00 000 7401.", "spans": [{"entity": "PERSON", "start": 6, "end": 21, "known": false}, {"entity": "PHONE", "start": 25, "end": 36, "known": true}]}
+{"id": "S0239", "kind": "positive", "text": "Authorization: Bearer VCFAKE-ftdm1gzc6yi3clABCDEF", "spans": [{"entity": "SECRET", "start": 22, "end": 49, "known": true}]}
+{"id": "S0240", "kind": "negative", "text": "Ticket 123456789012 was closed by the service desk.", "spans": []}
+{"id": "S0241", "kind": "negative", "text": "Password: required for all accounts; password policy applies.", "spans": []}
+{"id": "S0242", "kind": "evasion", "text": "Mail m a y a @ e x a m p l e . c o m today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 36, "known": false}]}
+{"id": "S0243", "kind": "positive", "text": "Customer Noah Example called from +353.00.000.0551.", "spans": [{"entity": "PERSON", "start": 9, "end": 21, "known": true}, {"entity": "PHONE", "start": 34, "end": 50, "known": true}]}
+{"id": "S0244", "kind": "evasion", "text": "Mail moc.elpmaxe@aym today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 20, "known": false}]}
+{"id": "S0245", "kind": "negative", "text": "Meeting @ 5 pm . Thanks", "spans": []}
+{"id": "S0246", "kind": "positive", "text": "Customer Omar Example called from +353 00 000 8858.", "spans": [{"entity": "PERSON", "start": 9, "end": 21, "known": true}, {"entity": "PHONE", "start": 34, "end": 50, "known": true}]}
+{"id": "S0247", "kind": "positive", "text": "Reach Imogen Whitlock on (00) 000 4669.", "spans": [{"entity": "PERSON", "start": 6, "end": 21, "known": false}, {"entity": "PHONE", "start": 25, "end": 38, "known": true}]}
+{"id": "S0248", "kind": "negative", "text": "The Example department updated the Sample procedure.", "spans": []}
+{"id": "S0249", "kind": "evasion", "text": "Mail moc.elpmaxe@aym today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 20, "known": false}]}
+{"id": "S0250", "kind": "positive", "text": "Customer Zara Example called from +353.00.000.3533.", "spans": [{"entity": "PERSON", "start": 9, "end": 21, "known": true}, {"entity": "PHONE", "start": 34, "end": 50, "known": true}]}
+{"id": "S0251", "kind": "positive", "text": "Card on file: 6011-1111-1111-1117 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 33, "known": true}]}
+{"id": "S0252", "kind": "positive", "text": "Reach Quentin Lindqvist on 00-000-7553.", "spans": [{"entity": "PERSON", "start": 6, "end": 23, "known": false}, {"entity": "PHONE", "start": 27, "end": 38, "known": true}]}
+{"id": "S0253", "kind": "positive", "text": "Contact Omar Example at oscar.demo@example.org about the invoice.", "spans": [{"entity": "PERSON", "start": 8, "end": 20, "known": true}, {"entity": "EMAIL", "start": 24, "end": 46, "known": true}]}
+{"id": "S0254", "kind": "negative", "text": "Server 192.168.10.25 rebooted; version 3.12.4 installed.", "spans": []}
+{"id": "S0255", "kind": "positive", "text": "Reach Quentin Marchetti on (00) 000 6847.", "spans": [{"entity": "PERSON", "start": 6, "end": 23, "known": false}, {"entity": "PHONE", "start": 27, "end": 40, "known": true}]}
+{"id": "S0256", "kind": "negative", "text": "Quarterly review scheduled for 2026-12-03; no personal data involved.", "spans": []}
+{"id": "S0257", "kind": "evasion", "text": "Mail nina @ example . com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 25, "known": true}]}
+{"id": "S0258", "kind": "negative", "text": "Ticket 123456789012 was closed by the service desk.", "spans": []}
+{"id": "S0259", "kind": "negative", "text": "Meeting @ 5 pm . Thanks", "spans": []}
+{"id": "S0260", "kind": "positive", "text": "Reach Bram Lindqvist on 00 000 7935.", "spans": [{"entity": "PERSON", "start": 6, "end": 20, "known": false}, {"entity": "PHONE", "start": 24, "end": 35, "known": true}]}
+{"id": "S0261", "kind": "positive", "text": "Authorization: Bearer VCFAKE-v53i1r2i6sxdu5ABCDEF", "spans": [{"entity": "SECRET", "start": 22, "end": 49, "known": true}]}
+{"id": "S0262", "kind": "evasion", "text": "Call \uff0b\uff13\uff15\uff13\uff0d\uff10\uff10\uff0d\uff10\uff10\uff10\uff0d\uff10\uff10\uff10\uff12 now.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0263", "kind": "positive", "text": "Forward to MIRA.TESTCASE@EXAMPLE.NET and copy dev.testcase+tag@example.net.", "spans": [{"entity": "EMAIL", "start": 11, "end": 36, "known": true}, {"entity": "EMAIL", "start": 46, "end": 74, "known": true}]}
+{"id": "S0264", "kind": "negative", "text": "Quarterly review scheduled for 2026-12-03; no personal data involved.", "spans": []}
+{"id": "S0265", "kind": "positive", "text": "Authorization: Bearer VCFAKE-k0r9vh4l46l7jwABCDEF", "spans": [{"entity": "SECRET", "start": 22, "end": 49, "known": true}]}
+{"id": "S0266", "kind": "positive", "text": "Forward to ARIA.EXAMPLE@EXAMPLE.ORG and copy omar.specimen+tag@example.net.", "spans": [{"entity": "EMAIL", "start": 11, "end": 35, "known": true}, {"entity": "EMAIL", "start": 45, "end": 74, "known": true}]}
+{"id": "S0267", "kind": "positive", "text": "Set api_key: VCFAKE-k3dab2r1irplvi in the staging file.", "spans": [{"entity": "SECRET", "start": 13, "end": 34, "known": true}]}
+{"id": "S0268", "kind": "positive", "text": "Escalated record REC-728 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0269", "kind": "positive", "text": "Card on file: 378282246310005 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 29, "known": true}]}
+{"id": "S0270", "kind": "negative", "text": "Server 192.168.10.25 rebooted; version 3.12.4 installed.", "spans": []}
+{"id": "S0271", "kind": "positive", "text": "Customer Omar Example called from +353.00.000.9954.", "spans": [{"entity": "PERSON", "start": 9, "end": 21, "known": true}, {"entity": "PHONE", "start": 34, "end": 50, "known": true}]}
+{"id": "S0272", "kind": "positive", "text": "Please send the report to ravi.sample@example.com by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 49, "known": true}]}
+{"id": "S0273", "kind": "evasion", "text": "Call \uff0b\uff13\uff15\uff13\uff0d\uff10\uff10\uff0d\uff10\uff10\uff10\uff0d\uff10\uff10\uff10\uff12 now.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0274", "kind": "positive", "text": "Reach Bram Okafor on (00) 000 8987.", "spans": [{"entity": "PERSON", "start": 6, "end": 17, "known": false}, {"entity": "PHONE", "start": 21, "end": 34, "known": true}]}
+{"id": "S0275", "kind": "evasion", "text": "Mail moc.elpmaxe@aym today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 20, "known": false}]}
+{"id": "S0276", "kind": "evasion", "text": "Mail moc.elpmaxe@aym today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 20, "known": false}]}
+{"id": "S0277", "kind": "negative", "text": "Server 192.168.10.25 rebooted; version 3.12.4 installed.", "spans": []}
+{"id": "S0278", "kind": "positive", "text": "Escalated record REC-690 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0279", "kind": "negative", "text": "Meeting @ 5 pm . Thanks", "spans": []}
+{"id": "S0280", "kind": "negative", "text": "Ticket 123456789012 was closed by the service desk.", "spans": []}
+{"id": "S0281", "kind": "negative", "text": "Password: required for all accounts; password policy applies.", "spans": []}
+{"id": "S0282", "kind": "evasion", "text": "Mail maya dot example at example dot com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 40, "known": false}]}
+{"id": "S0283", "kind": "evasion", "text": "Call \uff0b\uff13\uff15\uff13\uff0d\uff10\uff10\uff0d\uff10\uff10\uff10\uff0d\uff10\uff10\uff10\uff12 now.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0284", "kind": "positive", "text": "Reach Bram Marchetti on (00) 000 3521.", "spans": [{"entity": "PERSON", "start": 6, "end": 20, "known": false}, {"entity": "PHONE", "start": 24, "end": 37, "known": true}]}
+{"id": "S0285", "kind": "positive", "text": "Escalated record REC-947 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0286", "kind": "positive", "text": "Please send the report to tomas.mockup@example.net by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 50, "known": true}]}
+{"id": "S0287", "kind": "positive", "text": "Please send the report to elsa.specimen@example.com by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 51, "known": true}]}
+{"id": "S0288", "kind": "positive", "text": "Forward to EZRA.DEMO@EXAMPLE.ORG and copy arjun.example+tag@example.com.", "spans": [{"entity": "EMAIL", "start": 11, "end": 32, "known": true}, {"entity": "EMAIL", "start": 42, "end": 71, "known": true}]}
+{"id": "S0289", "kind": "negative", "text": "Invoice number 4681 4755 8221 1271 was approved.", "spans": []}
+{"id": "S0290", "kind": "positive", "text": "Set api_key: VCFAKE-bgdpjoebdc7buj in the staging file.", "spans": [{"entity": "SECRET", "start": 13, "end": 34, "known": true}]}
+{"id": "S0291", "kind": "positive", "text": "Please send the report to omar.testcase@example.net by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 51, "known": true}]}
+{"id": "S0292", "kind": "negative", "text": "Quarterly review scheduled for 2026-12-03; no personal data involved.", "spans": []}
+{"id": "S0293", "kind": "evasion", "text": "Mail moc.elpmaxe@aym today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 20, "known": false}]}
+{"id": "S0294", "kind": "positive", "text": "Call +353 00 000 7166 for follow-up.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0295", "kind": "positive", "text": "Forward to NINA.SAMPLE@EXAMPLE.NET and copy milo.demo+tag@example.com.", "spans": [{"entity": "EMAIL", "start": 11, "end": 34, "known": true}, {"entity": "EMAIL", "start": 44, "end": 69, "known": true}]}
+{"id": "S0296", "kind": "negative", "text": "Order ORD-20261107-0042 shipped on 2026-11-07 at 12:30:45.", "spans": []}
+{"id": "S0297", "kind": "negative", "text": "Meeting @ 5 pm . Thanks", "spans": []}
+{"id": "S0298", "kind": "negative", "text": "Server 192.168.10.25 rebooted; version 3.12.4 installed.", "spans": []}
+{"id": "S0299", "kind": "positive", "text": "Config note: password=VCFAKE-ji9epgpuv1wknt must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0300", "kind": "positive", "text": "Call +353 00 000 9832 for follow-up.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0301", "kind": "negative", "text": "Ticket 123456789012 was closed by the service desk.", "spans": []}
+{"id": "S0302", "kind": "positive", "text": "Please send the report to dev.mockup@example.net by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 48, "known": true}]}
+{"id": "S0303", "kind": "evasion", "text": "Mail m a y a @ e x a m p l e . c o m today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 36, "known": false}]}
+{"id": "S0304", "kind": "evasion", "text": "Mail oscar (dot) sample (at) example (dot) org today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 46, "known": true}]}
+{"id": "S0305", "kind": "positive", "text": "Forward to RORY.MOCKUP@EXAMPLE.NET and copy ruth.dummy+tag@example.com.", "spans": [{"entity": "EMAIL", "start": 11, "end": 34, "known": true}, {"entity": "EMAIL", "start": 44, "end": 70, "known": true}]}
+{"id": "S0306", "kind": "positive", "text": "Contact Hugo Example at theo.demo@example.net about the invoice.", "spans": [{"entity": "PERSON", "start": 8, "end": 20, "known": true}, {"entity": "EMAIL", "start": 24, "end": 45, "known": true}]}
+{"id": "S0307", "kind": "evasion", "text": "Mail ma\u200bya.exa\u200bmple@example.com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 31, "known": true}]}
+{"id": "S0308", "kind": "evasion", "text": "Mail ma\u200bya.exa\u200bmple@example.com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 31, "known": true}]}
+{"id": "S0309", "kind": "positive", "text": "Card on file: 3782-8224-6310-005 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 32, "known": true}]}
+{"id": "S0310", "kind": "evasion", "text": "Call \uff0b\uff13\uff15\uff13\uff0d\uff10\uff10\uff0d\uff10\uff10\uff10\uff0d\uff10\uff10\uff10\uff12 now.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0311", "kind": "negative", "text": "The email policy requires encryption and the phone line is busy.", "spans": []}
+{"id": "S0312", "kind": "positive", "text": "Escalated record REC-793 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0313", "kind": "evasion", "text": "Mail moc.elpmaxe@aym today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 20, "known": false}]}
+{"id": "S0314", "kind": "negative", "text": "The email policy requires encryption and the phone line is busy.", "spans": []}
+{"id": "S0315", "kind": "positive", "text": "Escalated record REC-339 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0316", "kind": "positive", "text": "Set api_key: VCFAKE-fb6h9xk2930raa in the staging file.", "spans": [{"entity": "SECRET", "start": 13, "end": 34, "known": true}]}
+{"id": "S0317", "kind": "negative", "text": "Part number 12-345-6789 is back-ordered.", "spans": []}
+{"id": "S0318", "kind": "negative", "text": "Meeting @ 5 pm . Thanks", "spans": []}
+{"id": "S0319", "kind": "negative", "text": "The Example department updated the Sample procedure.", "spans": []}
+{"id": "S0320", "kind": "evasion", "text": "Mail sami (dot) sample (at) example (dot) org today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 45, "known": true}]}
+{"id": "S0321", "kind": "negative", "text": "Order ORD-20261107-0042 shipped on 2026-11-07 at 12:30:45.", "spans": []}
+{"id": "S0322", "kind": "evasion", "text": "Call \uff0b\uff13\uff15\uff13\uff0d\uff10\uff10\uff0d\uff10\uff10\uff10\uff0d\uff10\uff10\uff10\uff12 now.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0323", "kind": "evasion", "text": "Mail m a y a @ e x a m p l e . c o m today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 36, "known": false}]}
+{"id": "S0324", "kind": "evasion", "text": "Call \uff0b\uff13\uff15\uff13\uff0d\uff10\uff10\uff0d\uff10\uff10\uff10\uff0d\uff10\uff10\uff10\uff12 now.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0325", "kind": "negative", "text": "Password: required for all accounts; password policy applies.", "spans": []}
+{"id": "S0326", "kind": "positive", "text": "Call +353.00.000.1710 for follow-up.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0327", "kind": "positive", "text": "Call +353 00 000 7016 for follow-up.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0328", "kind": "negative", "text": "Password: required for all accounts; password policy applies.", "spans": []}
+{"id": "S0329", "kind": "positive", "text": "Card on file: 6011111111111117 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 30, "known": true}]}
+{"id": "S0330", "kind": "evasion", "text": "Mail moc.elpmaxe@aym today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 20, "known": false}]}
+{"id": "S0331", "kind": "negative", "text": "Server 192.168.10.25 rebooted; version 3.12.4 installed.", "spans": []}
+{"id": "S0332", "kind": "positive", "text": "Forward to KIAN.PLACEHOLDER@EXAMPLE.NET and copy felix.trainee+tag@example.com.", "spans": [{"entity": "EMAIL", "start": 11, "end": 39, "known": true}, {"entity": "EMAIL", "start": 49, "end": 78, "known": true}]}
+{"id": "S0333", "kind": "positive", "text": "Config note: password=VCFAKE-2izyyleqviqr7q must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0334", "kind": "positive", "text": "Escalated record REC-994 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0335", "kind": "positive", "text": "Reach Percy Lindqvist on (00) 000 2684.", "spans": [{"entity": "PERSON", "start": 6, "end": 21, "known": false}, {"entity": "PHONE", "start": 25, "end": 38, "known": true}]}
+{"id": "S0336", "kind": "positive", "text": "Escalated record REC-037 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0337", "kind": "positive", "text": "Authorization: Bearer VCFAKE-zpd1o0v934meeeABCDEF", "spans": [{"entity": "SECRET", "start": 22, "end": 49, "known": true}]}
+{"id": "S0338", "kind": "positive", "text": "Config note: password=VCFAKE-q1b1mr5tqyh97q must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0339", "kind": "negative", "text": "The Example department updated the Sample procedure.", "spans": []}
+{"id": "S0340", "kind": "positive", "text": "Please send the report to hugo.fictional@example.org by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 52, "known": true}]}
+{"id": "S0341", "kind": "negative", "text": "Server 192.168.10.25 rebooted; version 3.12.4 installed.", "spans": []}
+{"id": "S0342", "kind": "evasion", "text": "Mail dev @ example . com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 24, "known": true}]}
+{"id": "S0343", "kind": "positive", "text": "Call +353.00.000.5702 for follow-up.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0344", "kind": "positive", "text": "Contact Hugo Example at yara.sample@example.net about the invoice.", "spans": [{"entity": "PERSON", "start": 8, "end": 20, "known": true}, {"entity": "EMAIL", "start": 24, "end": 47, "known": true}]}
+{"id": "S0345", "kind": "positive", "text": "Forward to NORA.EXAMPLE@EXAMPLE.ORG and copy mira.dummy+tag@example.org.", "spans": [{"entity": "EMAIL", "start": 11, "end": 35, "known": true}, {"entity": "EMAIL", "start": 45, "end": 71, "known": true}]}
+{"id": "S0346", "kind": "positive", "text": "Set api_key: VCFAKE-8qd9j1wc1sjd3w in the staging file.", "spans": [{"entity": "SECRET", "start": 13, "end": 34, "known": true}]}
+{"id": "S0347", "kind": "evasion", "text": "Mail moc.elpmaxe@aym today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 20, "known": false}]}
+{"id": "S0348", "kind": "positive", "text": "Config note: password=VCFAKE-oiowqnjt94zdqs must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0349", "kind": "evasion", "text": "Mail felix (dot) fictional (at) example (dot) net today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 49, "known": true}]}
+{"id": "S0350", "kind": "negative", "text": "Server 192.168.10.25 rebooted; version 3.12.4 installed.", "spans": []}
+{"id": "S0351", "kind": "positive", "text": "Card on file: 4012888888881881 (test number).", "spans": [{"entity": "CARD", "start": 14, "end": 30, "known": true}]}
+{"id": "S0352", "kind": "positive", "text": "Contact Omar Example at leo.sample@example.net about the invoice.", "spans": [{"entity": "PERSON", "start": 8, "end": 20, "known": true}, {"entity": "EMAIL", "start": 24, "end": 46, "known": true}]}
+{"id": "S0353", "kind": "positive", "text": "Config note: password=VCFAKE-tbwh3pku3qm9e7 must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0354", "kind": "positive", "text": "Set api_key: VCFAKE-n8dru44bz2ugqs in the staging file.", "spans": [{"entity": "SECRET", "start": 13, "end": 34, "known": true}]}
+{"id": "S0355", "kind": "positive", "text": "Escalated record REC-389 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0356", "kind": "evasion", "text": "Mail theo @ example . com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 25, "known": true}]}
+{"id": "S0357", "kind": "positive", "text": "Contact Zara Example at maya.dummy@example.com about the invoice.", "spans": [{"entity": "PERSON", "start": 8, "end": 20, "known": true}, {"entity": "EMAIL", "start": 24, "end": 46, "known": true}]}
+{"id": "S0358", "kind": "negative", "text": "Quarterly review scheduled for 2026-12-03; no personal data involved.", "spans": []}
+{"id": "S0359", "kind": "positive", "text": "Reach Percy Okafor on 00 000 8464.", "spans": [{"entity": "PERSON", "start": 6, "end": 18, "known": false}, {"entity": "PHONE", "start": 22, "end": 33, "known": true}]}
+{"id": "S0360", "kind": "evasion", "text": "Mail omar[dot]fictional[at]example[dot]com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 42, "known": true}]}
+{"id": "S0361", "kind": "negative", "text": "Password: required for all accounts; password policy applies.", "spans": []}
+{"id": "S0362", "kind": "positive", "text": "Forward to HUGO.DUMMY@EXAMPLE.NET and copy anya.example+tag@example.net.", "spans": [{"entity": "EMAIL", "start": 11, "end": 33, "known": true}, {"entity": "EMAIL", "start": 43, "end": 71, "known": true}]}
+{"id": "S0363", "kind": "negative", "text": "The email policy requires encryption and the phone line is busy.", "spans": []}
+{"id": "S0364", "kind": "negative", "text": "Invoice number 4716 6305 8439 6294 was approved.", "spans": []}
+{"id": "S0365", "kind": "positive", "text": "Set api_key: VCFAKE-ifjgg13d8zex6a in the staging file.", "spans": [{"entity": "SECRET", "start": 13, "end": 34, "known": true}]}
+{"id": "S0366", "kind": "negative", "text": "Invoice number 4307 5091 6233 0088 was approved.", "spans": []}
+{"id": "S0367", "kind": "negative", "text": "Part number 12-345-6789 is back-ordered.", "spans": []}
+{"id": "S0368", "kind": "evasion", "text": "Mail maya @ example . com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 25, "known": true}]}
+{"id": "S0369", "kind": "negative", "text": "Part number 12-345-6789 is back-ordered.", "spans": []}
+{"id": "S0370", "kind": "positive", "text": "Set api_key: VCFAKE-vky7b2em8ytn75 in the staging file.", "spans": [{"entity": "SECRET", "start": 13, "end": 34, "known": true}]}
+{"id": "S0371", "kind": "evasion", "text": "Mail rory (dot) example (at) example (dot) org today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 46, "known": true}]}
+{"id": "S0372", "kind": "positive", "text": "Customer Theo Example called from +353-00-000-6340.", "spans": [{"entity": "PERSON", "start": 9, "end": 21, "known": true}, {"entity": "PHONE", "start": 34, "end": 50, "known": true}]}
+{"id": "S0373", "kind": "positive", "text": "Authorization: Bearer VCFAKE-xkvyxtznxg1ze6ABCDEF", "spans": [{"entity": "SECRET", "start": 22, "end": 49, "known": true}]}
+{"id": "S0374", "kind": "positive", "text": "Please send the report to leo.dummy@example.com by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 47, "known": true}]}
+{"id": "S0375", "kind": "negative", "text": "Invoice number 4054 0363 7350 0786 was approved.", "spans": []}
+{"id": "S0376", "kind": "positive", "text": "Escalated record REC-222 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0377", "kind": "evasion", "text": "Mail ma\u200bya.exa\u200bmple@example.com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 31, "known": true}]}
+{"id": "S0378", "kind": "evasion", "text": "Mail aria[dot]demo[at]example[dot]com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 37, "known": true}]}
+{"id": "S0379", "kind": "positive", "text": "Please send the report to leo.placeholder@example.com by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 53, "known": true}]}
+{"id": "S0380", "kind": "evasion", "text": "Mail kian (dot) example (at) example (dot) net today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 46, "known": true}]}
+{"id": "S0381", "kind": "negative", "text": "Quarterly review scheduled for 2026-12-03; no personal data involved.", "spans": []}
+{"id": "S0382", "kind": "positive", "text": "Config note: password=VCFAKE-5wbfioapycokq9 must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0383", "kind": "evasion", "text": "Call \uff0b\uff13\uff15\uff13\uff0d\uff10\uff10\uff0d\uff10\uff10\uff10\uff0d\uff10\uff10\uff10\uff12 now.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0384", "kind": "positive", "text": "Please send the report to felix.fictional@example.net by Friday.", "spans": [{"entity": "EMAIL", "start": 26, "end": 53, "known": true}]}
+{"id": "S0385", "kind": "negative", "text": "Server 192.168.10.25 rebooted; version 3.12.4 installed.", "spans": []}
+{"id": "S0386", "kind": "positive", "text": "Authorization: Bearer VCFAKE-mmchp8qqqvlm29ABCDEF", "spans": [{"entity": "SECRET", "start": 22, "end": 49, "known": true}]}
+{"id": "S0387", "kind": "evasion", "text": "Mail hana (dot) placeholder (at) example (dot) com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 50, "known": true}]}
+{"id": "S0388", "kind": "positive", "text": "Config note: password=VCFAKE-vlc8zg11zo2eoa must be rotated.", "spans": [{"entity": "SECRET", "start": 22, "end": 43, "known": true}]}
+{"id": "S0389", "kind": "negative", "text": "Ticket 123456789012 was closed by the service desk.", "spans": []}
+{"id": "S0390", "kind": "positive", "text": "Reach Bram Marchetti on 00-000-5606.", "spans": [{"entity": "PERSON", "start": 6, "end": 20, "known": false}, {"entity": "PHONE", "start": 24, "end": 35, "known": true}]}
+{"id": "S0391", "kind": "positive", "text": "Call +353.00.000.5178 for follow-up.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}
+{"id": "S0392", "kind": "positive", "text": "Escalated record REC-567 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0393", "kind": "positive", "text": "Customer Maya Example called from +353-00-000-6347.", "spans": [{"entity": "PERSON", "start": 9, "end": 21, "known": true}, {"entity": "PHONE", "start": 34, "end": 50, "known": true}]}
+{"id": "S0394", "kind": "positive", "text": "Escalated record REC-526 to the audit team.", "spans": [{"entity": "RECORD_ID", "start": 17, "end": 24, "known": true}]}
+{"id": "S0395", "kind": "positive", "text": "Reach Quentin Lindqvist on 00-000-5250.", "spans": [{"entity": "PERSON", "start": 6, "end": 23, "known": false}, {"entity": "PHONE", "start": 27, "end": 38, "known": true}]}
+{"id": "S0396", "kind": "positive", "text": "Customer Hugo Example called from +353-00-000-4206.", "spans": [{"entity": "PERSON", "start": 9, "end": 21, "known": true}, {"entity": "PHONE", "start": 34, "end": 50, "known": true}]}
+{"id": "S0397", "kind": "positive", "text": "Forward to LILA.SAMPLE@EXAMPLE.COM and copy talia.trainee+tag@example.com.", "spans": [{"entity": "EMAIL", "start": 11, "end": 34, "known": true}, {"entity": "EMAIL", "start": 44, "end": 73, "known": true}]}
+{"id": "S0398", "kind": "evasion", "text": "Mail maya dot example at example dot com today.", "spans": [{"entity": "EMAIL", "start": 5, "end": 40, "known": false}]}
+{"id": "S0399", "kind": "positive", "text": "Authorization: Bearer VCFAKE-ju2oce8hcliyv9ABCDEF", "spans": [{"entity": "SECRET", "start": 22, "end": 49, "known": true}]}
+{"id": "S0400", "kind": "positive", "text": "Call +353 00 000 0197 for follow-up.", "spans": [{"entity": "PHONE", "start": 5, "end": 21, "known": true}]}

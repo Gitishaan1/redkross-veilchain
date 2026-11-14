@@ -1,0 +1,7 @@
+record_id,full_name,email,phone,department,data_sensitivity
+REC-001,Maya Example,maya.example@example.com,+353-00-000-0001,Support,low
+REC-002,Noah Sample,noah.sample@example.net,+353-00-000-0002,Finance,high
+REC-003,Ava Training,ava.training@example.org,+353-00-000-0003,People Ops,high
+REC-004,Liam Fiction,liam.fiction@example.com,+353-00-000-0004,Engineering,medium
+REC-005,Ivy Demo,ivy.demo@example.net,+353-00-000-0005,Support,low
+REC-006,Ethan Practice,ethan.practice@example.org,+353-00-000-0006,Finance,high

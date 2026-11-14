@@ -1,0 +1,36 @@
+{
+  "policy_name": "Northstar Synthetic Data Handling Policy",
+  "notice": "Fictional training policy.",
+  "classes": [
+    {
+      "name": "Public",
+      "examples": [
+        "approved public brochure"
+      ],
+      "handling": "May be shared externally after approval."
+    },
+    {
+      "name": "Internal",
+      "examples": [
+        "internal procedure"
+      ],
+      "handling": "Share only with authorised staff."
+    },
+    {
+      "name": "Confidential",
+      "examples": [
+        "employee contact details",
+        "customer records"
+      ],
+      "handling": "Restrict access; minimise collection; redact before sharing."
+    },
+    {
+      "name": "Restricted",
+      "examples": [
+        "authentication secrets",
+        "private keys"
+      ],
+      "handling": "Never store in training reports; use approved secret manager."
+    }
+  ]
+}
