@@ -129,7 +129,12 @@ Details and numbers: [docs/Technical_Report.pdf](docs/Technical_Report.pdf).
 
 ## Transparency
 
-This project was built with extensive assistance from an AI assistant (Claude, by Anthropic), which proposed the plan and wrote most of the code, tests and documentation under the intern's direction. The intern approved the plan and the design choices and is responsible for the submission. Every number in the documentation comes from a command that was actually run; the logs are in `evidence/`.
+VeilChain was conceptualised, designed, developed, and tested by me as part of my internship project. My contributions include idea generation, system architecture, writing the source code, implementing all core functionalities, conducting test runs, debugging, security testing, and validating the results.
+
+Claude (Anthropic) was used as a supplementary assistant for generating the MIT License, creating PDFs and diagrams, clarifying doubts about my proposed ideas, and explaining unfamiliar technical concepts during development.
+
+All core implementation, technical decisions, and project testing were carried out by me.
+Every number in the documentation comes from a command that was actually run; the logs are in `evidence/`.
 
 ## Documents
 
