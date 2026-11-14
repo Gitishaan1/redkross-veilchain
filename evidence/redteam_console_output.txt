@@ -1,0 +1,12 @@
+Running red-team attacks on synthetic data (this takes a few seconds)...
+
+ID    Outcome   Result
+RT-1  DEFENDED  v0 unkeyed tokens: BROKEN (50/50 recovered). v1 HMAC tokens: DEFENDED. With a stolen key: 50/50 recovered.
+RT-2  DEFENDED  0 leaks in 6 files; scanner self-test passed.
+RT-3  DEFENDED  k 1 -> 2; at-risk records 2 -> 0.
+RT-4  PARTIAL   12/12 designed-for evasions caught; 7 out-of-scope evasions slip through: letters spaced out, words: dot / at, reversed text, base64-encoded email, phone, digits only, no plus, phone spelled in words, card split across words.
+RT-5  DEFENDED  exit code 2; 0 derivations found in outputs.
+RT-6  PARTIAL   7/8 tampering attacks detected without the key; 8/8 with the key. Undetected without key: h.
+RT-7  DEFENDED  same key: 20/20 linkable; different keys: 0/20 linkable.
+
+Full report: evidence/redteam_after_fixes/redteam_report.md

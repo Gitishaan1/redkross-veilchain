@@ -1,0 +1,5 @@
+VeilChain explanation of every decision (policy: Northstar Synthetic Data Handling Policy)
+
+[line-1] SECRET (Restricted) in text: REMOVED. Restricted material is never stored or released; nothing derived from it is kept. Policy: Northstar Synthetic Data Handling Policy, class "Restricted": "Never store in training reports; use approved secret manager."
+[line-2] PRIVATE_KEY (Restricted) in text: REMOVED. Restricted material is never stored or released; nothing derived from it is kept. Policy: Northstar Synthetic Data Handling Policy, class "Restricted": "Never store in training reports; use approved secret manager."
+[line-5] EMAIL (Confidential) in text: TOKENISED. Confidential is above the release level (Internal), so it is redacted before sharing. Policy: Northstar Synthetic Data Handling Policy, class "Confidential": "Restrict access; minimise collection; redact before sharing."

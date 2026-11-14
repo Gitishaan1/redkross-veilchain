@@ -1,0 +1,67 @@
+{
+  "command": "redact",
+  "files": {
+    "explain.txt": {
+      "bytes": 1133,
+      "sha256": "992c3fbe680a98c15e24a0b8984f5bf0a32c075fb1156fd7e983b7a8c09cdf9f"
+    },
+    "ledger.jsonl": {
+      "bytes": 4387,
+      "sha256": "88c540af4f2100e7fef4cabd97fdc136a20d7e6c20c8ec3d35150c63bed747ae"
+    },
+    "redacted_redaction_test_cases.csv": {
+      "bytes": 334,
+      "sha256": "dc10d7abc6836930660ae029a51f85fc3817852a901c8f4bd7e642e5b2f33d95"
+    },
+    "summary.json": {
+      "bytes": 519,
+      "sha256": "2072afe7a56904ea2c8461ee494aca95f45a927e089370b483e706c3f1c1d1b3"
+    }
+  },
+  "finished": "2026-11-12T02:02:37Z",
+  "inputs": [
+    {
+      "bytes": 331,
+      "name": "redaction_test_cases.csv",
+      "sha256": "d50600335314eb021eb01ef41cc6b1971f1f5cfe39cbf4554d0ccd23c99e2b33"
+    }
+  ],
+  "key": {
+    "key_id": "9087c92c20b7",
+    "reproducible": true,
+    "source": "demo"
+  },
+  "ledger": {
+    "entries": 10,
+    "head": "f110d099aa83ad6b0ea68c829efea131afc7d1546bc903ad8009ae3da2505846"
+  },
+  "manifest_version": 1,
+  "notes": [
+    "A SHA-256 hash proves that a file matches a recorded value. It does not prove the original data was trustworthy.",
+    "This manifest contains no original sensitive values, no key material, no absolute paths and no usernames.",
+    "Redaction reduces exposure; it does not make data anonymous. See the report's limitations."
+  ],
+  "parameters": {
+    "k_min": null,
+    "known_names_file": "customer_records_synthetic.csv",
+    "mode": "pseudonymise",
+    "release_level": "Internal",
+    "text_columns": [
+      "input_text"
+    ],
+    "token_scheme": "hmac"
+  },
+  "policy": {
+    "name": "Northstar Synthetic Data Handling Policy",
+    "sha256": "dc65a317a440e758222dd13d3b049a5a3db545bee896cba08ea9a2ccd618952c"
+  },
+  "python": "3.12.3",
+  "rules": {
+    "sha256": "565e7deb041a96dd8d603cba93a11d24784219263e8ac36110218ffd6d54a786"
+  },
+  "run_id": "e028a673aab545e9",
+  "started": "2026-11-12T02:02:37Z",
+  "status": "COMPLETE",
+  "tool": "veilchain",
+  "version": "1.0.0"
+}

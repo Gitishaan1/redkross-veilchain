@@ -1,0 +1,24 @@
+digraph G {
+  rankdir=LR; nodesep=0.3; ranksep=0.45; compound=true;
+  node [shape=box, style="rounded,filled", fontname="DejaVu Sans", fontsize=10, color="#444444", fillcolor="#F4F6F8"];
+  edge [fontname="DejaVu Sans", fontsize=9, color="#555555"];
+  input [label="Input\nCSV / .txt\n(read-only)", fillcolor="#DCE6F2"];
+  policy [label="Policy JSON\n(4 classes)\n+ rules JSON", fillcolor="#FFF7DC"];
+  key [label="Key\n(Restricted)\nfile / env / demo", fillcolor="#F6D0D0"];
+  intake [label="1 INTAKE\nSHA-256 of input,\npolicy, rules"];
+  classify [label="2 DETECT +\nCLASSIFY\nfield rule vs content;\nhigher class wins"];
+  decide [label="3 DECIDE\nclass vs release level\nkeep / tokenise /\nmask / remove"];
+  transform [label="4 TRANSFORM\nHMAC tokens,\nSUPPRESS (k-anonymity)"];
+  out [label="Redacted output", fillcolor="#D8F0D8"];
+  ledger [label="5 LEDGER\nhash-chained JSONL\nkeyed fingerprints,\nno originals", fillcolor="#FDE9C9"];
+  seal [label="6 SEAL\nmanifest.json\n+ manifest.sha256", fillcolor="#FDE9C9"];
+  verify [label="verify\nhashes, chain, MAC,\nledger cross-check,\nleak scan", fillcolor="#DCE6F2"];
+  redteam [label="redteam\nattacks on\nour own output", fillcolor="#F6D0D0"];
+  input -> intake; policy -> intake; intake -> classify; classify -> decide; decide -> transform; transform -> out;
+  key -> transform [style=dashed, label="token key"];
+  key -> ledger [style=dashed, label="audit + seal keys"];
+  transform -> ledger; decide -> ledger [style=dotted];
+  ledger -> seal; out -> seal;
+  seal -> verify; input -> verify [style=dashed, label="optional\n--input"];
+  out -> redteam [style=dotted]; seal -> redteam [style=dotted];
+}

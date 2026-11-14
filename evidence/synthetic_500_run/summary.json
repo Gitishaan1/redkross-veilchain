@@ -1,0 +1,1282 @@
+{
+  "decisions": {
+    "keep": 500,
+    "tokenise": 1500
+  },
+  "decisions_by_entity": {
+    "EMAIL:tokenise": 500,
+    "PERSON:tokenise": 500,
+    "PHONE:tokenise": 500,
+    "RECORD_ID:keep": 500
+  },
+  "findings": {
+    "under-classified": 178
+  },
+  "k_anonymity": {
+    "k": 9,
+    "k_min": 2,
+    "quasi_identifiers": [
+      "department",
+      "data_sensitivity"
+    ],
+    "records_below_k": 0
+  },
+  "known_names_loaded": 0,
+  "label_mismatches": [
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-002",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-007",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-009",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-012",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-015",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-017",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-022",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-028",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-029",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-031",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-032",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-034",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-039",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-040",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-048",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-050",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-051",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-054",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-060",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-063",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-065",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-072",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-075",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-081",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-082",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-083",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-087",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-091",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-092",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-093",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-100",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-107",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-112",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-113",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-114",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-115",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-118",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-119",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-127",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-129",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-131",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-133",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-137",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-139",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-140",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-141",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-142",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-146",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-148",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-149",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-154",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-156",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-157",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-159",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-160",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-163",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-164",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-174",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-177",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-178",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-180",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-182",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-183",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-191",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-192",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-194",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-195",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-199",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-205",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-206",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-211",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-212",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-217",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-220",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-223",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-229",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-230",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-233",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-234",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-237",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-240",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-241",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-244",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-245",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-246",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-255",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-256",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-264",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-266",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-268",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-269",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-271",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-273",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-275",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-279",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-280",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-287",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-294",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-299",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-306",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-315",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-316",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-317",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-319",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-320",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-324",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-325",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-326",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-328",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-329",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-330",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-331",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-333",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-341",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-342",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-343",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-345",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-346",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-348",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-349",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-351",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-352",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-353",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-358",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-365",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-366",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-367",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-368",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-373",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-376",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-377",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-379",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-380",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-381",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-382",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-386",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-387",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-391",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-393",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-398",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-399",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-400",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-403",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-408",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-410",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-412",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-413",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-415",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-419",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-421",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-423",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-427",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-428",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-429",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-434",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-437",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-440",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-442",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-453",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-454",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-455",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-465",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-466",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-467",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-468",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-471",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-472",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-474",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-477",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-482",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-483",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-485",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-487",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-489",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-492",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-496",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-497",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-498",
+      "status": "under-classified"
+    }
+  ],
+  "mode": "pseudonymise",
+  "record_classes": {
+    "Confidential": 500
+  },
+  "records_processed": 500,
+  "release_level": "Internal",
+  "restricted_entities": {},
+  "restricted_found": false,
+  "token_scheme": "hmac"
+}

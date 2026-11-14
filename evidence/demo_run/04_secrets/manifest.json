@@ -1,0 +1,65 @@
+{
+  "command": "redact",
+  "files": {
+    "explain.txt": {
+      "bytes": 894,
+      "sha256": "c2f419405006c7cc0d785a87c862446fe56835b9a6c10976327e02bdde036281"
+    },
+    "ledger.jsonl": {
+      "bytes": 2804,
+      "sha256": "3d7377e0360736ef6088342acd65c7b6baf802116c2b6aad168cd195c3e3cdb1"
+    },
+    "redacted_fake_secrets.txt": {
+      "bytes": 97,
+      "sha256": "601dd7f888746ee33c0198768afbf97a48a12e1171a2ace28ddf0912a1cc35a8"
+    },
+    "summary.json": {
+      "bytes": 494,
+      "sha256": "8c82f4812a0ca9c86b989934beb63fdab62c6b6c54cea709afd85fb92e7c76fd"
+    }
+  },
+  "finished": "2026-11-12T02:02:38Z",
+  "inputs": [
+    {
+      "bytes": 184,
+      "name": "fake_secrets.txt",
+      "sha256": "55e0916bbe909f61a322bae7b558be5b43d39164a8d2794288406aa7d73f4ff4"
+    }
+  ],
+  "key": {
+    "key_id": "9087c92c20b7",
+    "reproducible": true,
+    "source": "demo"
+  },
+  "ledger": {
+    "entries": 6,
+    "head": "5823c96e4689666603fc8efebe7d01fb6facd4cb7fec43c5d9f6f969ae1356aa"
+  },
+  "manifest_version": 1,
+  "notes": [
+    "A SHA-256 hash proves that a file matches a recorded value. It does not prove the original data was trustworthy.",
+    "This manifest contains no original sensitive values, no key material, no absolute paths and no usernames.",
+    "Redaction reduces exposure; it does not make data anonymous. See the report's limitations."
+  ],
+  "parameters": {
+    "k_min": null,
+    "known_names_file": null,
+    "mode": "pseudonymise",
+    "release_level": "Internal",
+    "text_columns": [],
+    "token_scheme": "hmac"
+  },
+  "policy": {
+    "name": "Northstar Synthetic Data Handling Policy",
+    "sha256": "dc65a317a440e758222dd13d3b049a5a3db545bee896cba08ea9a2ccd618952c"
+  },
+  "python": "3.12.3",
+  "rules": {
+    "sha256": "565e7deb041a96dd8d603cba93a11d24784219263e8ac36110218ffd6d54a786"
+  },
+  "run_id": "faee006c651b4899",
+  "started": "2026-11-12T02:02:38Z",
+  "status": "COMPLETE_RESTRICTED_FOUND",
+  "tool": "veilchain",
+  "version": "1.0.0"
+}

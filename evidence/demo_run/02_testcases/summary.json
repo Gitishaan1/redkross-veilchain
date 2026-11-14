@@ -1,0 +1,26 @@
+{
+  "decisions": {
+    "keep": 1,
+    "tokenise": 3
+  },
+  "decisions_by_entity": {
+    "EMAIL:tokenise": 1,
+    "PERSON:tokenise": 1,
+    "PHONE:tokenise": 1,
+    "RECORD_ID:keep": 1
+  },
+  "findings": {},
+  "k_anonymity": null,
+  "known_names_loaded": 6,
+  "label_mismatches": [],
+  "mode": "pseudonymise",
+  "record_classes": {
+    "Confidential": 2,
+    "Internal": 2
+  },
+  "records_processed": 4,
+  "release_level": "Internal",
+  "restricted_entities": {},
+  "restricted_found": false,
+  "token_scheme": "hmac"
+}

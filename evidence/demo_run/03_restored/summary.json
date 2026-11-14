@@ -1,0 +1,50 @@
+{
+  "decisions": {
+    "keep": 6,
+    "tokenise": 18
+  },
+  "decisions_by_entity": {
+    "EMAIL:tokenise": 6,
+    "PERSON:tokenise": 6,
+    "PHONE:tokenise": 6,
+    "RECORD_ID:keep": 6
+  },
+  "findings": {
+    "under-classified": 2
+  },
+  "k_anonymity": {
+    "k": 1,
+    "k_min": 2,
+    "quasi_identifiers": [
+      "department",
+      "data_sensitivity"
+    ],
+    "records_below_k": 2
+  },
+  "known_names_loaded": 0,
+  "label_mismatches": [
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-001",
+      "status": "under-classified"
+    },
+    {
+      "computed_class": "Confidential",
+      "expected_class": "Internal",
+      "label": "low",
+      "record": "REC-005",
+      "status": "under-classified"
+    }
+  ],
+  "mode": "pseudonymise",
+  "record_classes": {
+    "Confidential": 6
+  },
+  "records_processed": 6,
+  "release_level": "Internal",
+  "restricted_entities": {},
+  "restricted_found": false,
+  "token_scheme": "hmac"
+}

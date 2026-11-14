@@ -1,0 +1,5 @@
+case_id,input_text,expected_redaction
+RED-01,Contact [PERSON#5ffd0b88df] at [EMAIL#bf0641d28d],email address masked
+RED-02,Call [PHONE#3365ee40ad] for follow-up,phone number masked
+RED-03,Record REC-003 is marked Confidential,record ID may remain; explain policy
+RED-04,No personal information appears in this sentence,no change

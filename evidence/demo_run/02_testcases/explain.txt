@@ -1,0 +1,6 @@
+VeilChain explanation of every decision (policy: Northstar Synthetic Data Handling Policy)
+
+[RED-01] PERSON (Confidential) in input_text: TOKENISED. Confidential is above the release level (Internal), so it is redacted before sharing. Policy: Northstar Synthetic Data Handling Policy, class "Confidential": "Restrict access; minimise collection; redact before sharing."
+[RED-01] EMAIL (Confidential) in input_text: TOKENISED. Confidential is above the release level (Internal), so it is redacted before sharing. Policy: Northstar Synthetic Data Handling Policy, class "Confidential": "Restrict access; minimise collection; redact before sharing."
+[RED-02] PHONE (Confidential) in input_text: TOKENISED. Confidential is above the release level (Internal), so it is redacted before sharing. Policy: Northstar Synthetic Data Handling Policy, class "Confidential": "Restrict access; minimise collection; redact before sharing."
+[RED-03] RECORD_ID (Internal) in input_text: KEPT. Internal is at or below the release level (Internal). Policy: Northstar Synthetic Data Handling Policy, class "Internal": "Share only with authorised staff."

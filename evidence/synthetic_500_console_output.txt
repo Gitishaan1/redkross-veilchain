@@ -1,0 +1,41 @@
+WARNING: the demo key is PUBLIC. Use it for demonstrations only.
+
+Records processed : 500
+Release level     : Internal   mode: pseudonymise   token scheme: hmac
+Decisions         : {'keep': 500, 'tokenise': 1500}
+Label mismatches  : 178 record(s) look UNDER/OVER-classified by their owner's label
+k-anonymity       : k=9 (threshold 2); 0 record(s) suppressed
+Status            : COMPLETE
+Evidence bundle   : evidence/synthetic_500_run
+Manifest SHA-256  : 17c788f44155f9c5729a5be26f0dc28e5f9fdebcac42a916edfe7a1e4d6ea15d
+
+First decisions (full list in explain.txt):
+  [REC-001] RECORD_ID (Internal) in record_id: KEPT. Internal is at or below the release level (Internal). Policy: Northstar Synthetic Data Handling Policy, class "Internal": "Share only with authorised staff."
+  [REC-001] PERSON (Confidential) in full_name: TOKENISED. Confidential is above the release level (Internal), so it is redacted before sharing. Policy: Northstar Synthetic Data Handling Policy, class "Confidential": "Restrict access; minimise collection; redact before sharing."
+  [REC-001] EMAIL (Confidential) in email: TOKENISED. Confidential is above the release level (Internal), so it is redacted before sharing. Policy: Northstar Synthetic Data Handling Policy, class "Confidential": "Restrict access; minimise collection; redact before sharing."
+  [REC-001] PHONE (Confidential) in phone: TOKENISED. Confidential is above the release level (Internal), so it is redacted before sharing. Policy: Northstar Synthetic Data Handling Policy, class "Confidential": "Restrict access; minimise collection; redact before sharing."
+  [REC-002] RECORD_ID (Internal) in record_id: KEPT. Internal is at or below the release level (Internal). Policy: Northstar Synthetic Data Handling Policy, class "Internal": "Share only with authorised staff."
+  [REC-002] PERSON (Confidential) in full_name: TOKENISED. Confidential is above the release level (Internal), so it is redacted before sharing. Policy: Northstar Synthetic Data Handling Policy, class "Confidential": "Restrict access; minimise collection; redact before sharing."
+  [REC-002] EMAIL (Confidential) in email: TOKENISED. Confidential is above the release level (Internal), so it is redacted before sharing. Policy: Northstar Synthetic Data Handling Policy, class "Confidential": "Restrict access; minimise collection; redact before sharing."
+  [REC-002] PHONE (Confidential) in phone: TOKENISED. Confidential is above the release level (Internal), so it is redacted before sharing. Policy: Northstar Synthetic Data Handling Policy, class "Confidential": "Restrict access; minimise collection; redact before sharing."
+  [REC-003] RECORD_ID (Internal) in record_id: KEPT. Internal is at or below the release level (Internal). Policy: Northstar Synthetic Data Handling Policy, class "Internal": "Share only with authorised staff."
+  [REC-003] PERSON (Confidential) in full_name: TOKENISED. Confidential is above the release level (Internal), so it is redacted before sharing. Policy: Northstar Synthetic Data Handling Policy, class "Confidential": "Restrict access; minimise collection; redact before sharing."
+  [REC-003] EMAIL (Confidential) in email: TOKENISED. Confidential is above the release level (Internal), so it is redacted before sharing. Policy: Northstar Synthetic Data Handling Policy, class "Confidential": "Restrict access; minimise collection; redact before sharing."
+  [REC-003] PHONE (Confidential) in phone: TOKENISED. Confidential is above the release level (Internal), so it is redacted before sharing. Policy: Northstar Synthetic Data Handling Policy, class "Confidential": "Restrict access; minimise collection; redact before sharing."
+Verifying evidence bundle: synthetic_500_run/
+
+  [PASS] manifest present                         manifest.json
+  [PASS] manifest hash                            manifest.json matches manifest.sha256
+  [PASS] file explain.txt                         unchanged (f6ea2af9f5da...)
+  [PASS] file ledger.jsonl                        unchanged (6c61a750feb9...)
+  [PASS] file redacted_synthetic_records_500.csv  unchanged (6211cec99ecb...)
+  [PASS] file summary.json                        unchanged (3391adb199c8...)
+  [PASS] ledger chain                             2188 entries, chain intact, sealed
+  [PASS] ledger seal MAC                          keyed seal verifies
+  [PASS] ledger vs manifest                       entry count matches the manifest
+  [PASS] ledger vs outputs                        input and output hashes inside the ledger agree with the manifest
+  [WARN] key source                               DEMO key: it is public, so these tokens give no real protection
+  [PASS] input file                               matches the hash recorded at intake (original untouched)
+  [PASS] leak scan                                none of 1500 original sensitive values (nor their encodings) appear in any output file
+
+RESULT: VERIFIED - every check passed.

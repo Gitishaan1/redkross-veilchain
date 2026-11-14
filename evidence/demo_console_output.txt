@@ -1,0 +1,83 @@
+VeilChain demo (synthetic data only; the demo key is PUBLIC and used only for repeatability)
+
+==============================================================================
+1. Redact the customer records (release level Internal, k-anonymity threshold 2)
+==============================================================================
+record_id,full_name,email,phone,department,data_sensitivity
+REC-001,PERSON#5ffd0b88df,EMAIL#bf0641d28d,PHONE#923d5ca897,Support,low
+REC-002,PERSON#af72a7b7c6,EMAIL#1112a3508d,PHONE#3365ee40ad,Finance,high
+REC-003,PERSON#50d9d3071b,EMAIL#4d8b5b9e01,PHONE#6c2be55725,SUPPRESSED,SUPPRESSED
+REC-004,PERSON#3c91a86000,EMAIL#b1318d7fbb,PHONE#977a1ca2fa,SUPPRESSED,SUPPRESSED
+REC-005,PERSON#8e28595c5d,EMAIL#14c1029c55,PHONE#7032c17820,Support,low
+REC-006,PERSON#e877865006,EMAIL#0cf6780c78,PHONE#c5b5fcf90c,Finance,high
+
+  decisions: {'keep': 6, 'tokenise': 18}   label mismatches: 2   exit code: 0
+
+==============================================================================
+2. Redact the four provided test cases (free text, known names, policy explanations)
+==============================================================================
+case_id,input_text,expected_redaction
+RED-01,Contact [PERSON#5ffd0b88df] at [EMAIL#bf0641d28d],email address masked
+RED-02,Call [PHONE#3365ee40ad] for follow-up,phone number masked
+RED-03,Record REC-003 is marked Confidential,record ID may remain; explain policy
+RED-04,No personal information appears in this sentence,no change
+
+  explanation for RED-03: [RED-03] RECORD_ID (Internal) in input_text: KEPT. Internal is at or below the release level (Internal). Policy: Northstar Synthetic Data Handling Policy, class "Internal": "Share only with authorised staff."
+
+==============================================================================
+3. Verify the evidence bundles (hashes, ledger chain, seal, leak scan of originals)
+==============================================================================
+  [PASS] ledger chain: 38 entries, chain intact, sealed
+  [WARN] key source: DEMO key: it is public, so these tokens give no real protection
+  [PASS] input file: matches the hash recorded at intake (original untouched)
+  [PASS] leak scan: none of 18 original sensitive values (nor their encodings) appear in any output file
+  RESULT: VERIFIED
+  [PASS] ledger chain: 10 entries, chain intact, sealed
+  [WARN] key source: DEMO key: it is public, so these tokens give no real protection
+  [PASS] input file: matches the hash recorded at intake (original untouched)
+  [PASS] leak scan: none of 3 original sensitive values (nor their encodings) appear in any output file
+  RESULT: VERIFIED
+
+==============================================================================
+4. Tamper with a copy of the bundle: change one character of the redacted file
+==============================================================================
+  [FAIL] file redacted_customer_records_synthetic.csv: CHANGED (expected 0c28268d0e31..., found d70a613f0b21...)
+  [PASS] ledger chain: 38 entries, chain intact, sealed
+  [WARN] key source: DEMO key: it is public, so these tokens give no real protection
+  [PASS] input file: matches the hash recorded at intake (original untouched)
+  RESULT: VERIFICATION FAILED
+
+==============================================================================
+5. Tamper with the ledger: edit one decision from 'tokenise' to 'keep'
+==============================================================================
+  [FAIL] file ledger.jsonl: CHANGED (expected 52051eedc745..., found da2f61c1cab2...)
+  [FAIL] ledger chain: entry 9: content does not match its hash (entry was modified)
+  [WARN] key source: DEMO key: it is public, so these tokens give no real protection
+  [PASS] input file: matches the hash recorded at intake (original untouched)
+  RESULT: VERIFICATION FAILED
+
+==============================================================================
+6. Missing file, then restore by regenerating from the untouched original
+==============================================================================
+  [FAIL] file redacted_customer_records_synthetic.csv: MISSING
+  [PASS] ledger chain: 38 entries, chain intact, sealed
+  [WARN] key source: DEMO key: it is public, so these tokens give no real protection
+  [PASS] input file: matches the hash recorded at intake (original untouched)
+  RESULT: VERIFICATION FAILED
+  regenerated output is byte-identical to the original run: YES
+  [PASS] ledger chain: 38 entries, chain intact, sealed
+  [WARN] key source: DEMO key: it is public, so these tokens give no real protection
+  [PASS] input file: matches the hash recorded at intake (original untouched)
+  RESULT: VERIFIED
+
+==============================================================================
+7. Secrets: Restricted material fails closed
+==============================================================================
+deploy log: password=[RESTRICTED-REMOVED]
+[RESTRICTED-REMOVED]
+contact ops at [EMAIL#795177cef4]
+
+  exit code: 2 (2 means: Restricted material found and removed)   status: COMPLETE_RESTRICTED_FOUND
+  ledger fingerprints stored for Restricted entries: none (nothing derived from a secret is kept)
+
+Demo finished. Outputs are in: evidence/demo_run

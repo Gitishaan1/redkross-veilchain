@@ -1,0 +1,25 @@
+{
+  "decisions": {
+    "remove": 2,
+    "tokenise": 1
+  },
+  "decisions_by_entity": {
+    "EMAIL:tokenise": 1,
+    "PRIVATE_KEY:remove": 1,
+    "SECRET:remove": 1
+  },
+  "findings": {},
+  "k_anonymity": null,
+  "known_names_loaded": 0,
+  "label_mismatches": [],
+  "mode": "pseudonymise",
+  "record_classes": {},
+  "records_processed": 5,
+  "release_level": "Internal",
+  "restricted_entities": {
+    "PRIVATE_KEY": 1,
+    "SECRET": 1
+  },
+  "restricted_found": true,
+  "token_scheme": "hmac"
+}

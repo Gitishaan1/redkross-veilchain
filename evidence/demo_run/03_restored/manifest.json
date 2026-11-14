@@ -1,0 +1,65 @@
+{
+  "command": "redact",
+  "files": {
+    "explain.txt": {
+      "bytes": 6606,
+      "sha256": "41e8965ecc818d582970b9e76e9a98a92e08686ebb1b554b81c81493c708e647"
+    },
+    "ledger.jsonl": {
+      "bytes": 16260,
+      "sha256": "2c8616ba82b9b6ea9343e28d066c36fe8aaa30de665a29fbd21bd2cc24d90955"
+    },
+    "redacted_customer_records_synthetic.csv": {
+      "bytes": 521,
+      "sha256": "0c28268d0e315d5daa70ebc3af8823d9f1603737fdc5595a00ab58cf84021461"
+    },
+    "summary.json": {
+      "bytes": 1011,
+      "sha256": "dc1ef9003d4db4932e72ef95b501fbe4eea6e92bd229650cebcd287a4d13442a"
+    }
+  },
+  "finished": "2026-11-12T02:02:37Z",
+  "inputs": [
+    {
+      "bytes": 524,
+      "name": "customer_records_synthetic.csv",
+      "sha256": "e19ccee4032666e8f6a68eb8e69297866a3e95cd8d901fef5f71ae88ea3bd78c"
+    }
+  ],
+  "key": {
+    "key_id": "9087c92c20b7",
+    "reproducible": true,
+    "source": "demo"
+  },
+  "ledger": {
+    "entries": 38,
+    "head": "dc5d952cb691f02d1937a35f66f82c368f647b498825951d275ab94faa7f5f1a"
+  },
+  "manifest_version": 1,
+  "notes": [
+    "A SHA-256 hash proves that a file matches a recorded value. It does not prove the original data was trustworthy.",
+    "This manifest contains no original sensitive values, no key material, no absolute paths and no usernames.",
+    "Redaction reduces exposure; it does not make data anonymous. See the report's limitations."
+  ],
+  "parameters": {
+    "k_min": 2,
+    "known_names_file": null,
+    "mode": "pseudonymise",
+    "release_level": "Internal",
+    "text_columns": [],
+    "token_scheme": "hmac"
+  },
+  "policy": {
+    "name": "Northstar Synthetic Data Handling Policy",
+    "sha256": "dc65a317a440e758222dd13d3b049a5a3db545bee896cba08ea9a2ccd618952c"
+  },
+  "python": "3.12.3",
+  "rules": {
+    "sha256": "565e7deb041a96dd8d603cba93a11d24784219263e8ac36110218ffd6d54a786"
+  },
+  "run_id": "6fbbff49e15849e7",
+  "started": "2026-11-12T02:02:37Z",
+  "status": "COMPLETE",
+  "tool": "veilchain",
+  "version": "1.0.0"
+}

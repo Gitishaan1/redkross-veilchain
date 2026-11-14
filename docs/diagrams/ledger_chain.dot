@@ -1,0 +1,11 @@
+digraph L {
+  rankdir=LR; nodesep=0.25;
+  node [shape=record, style="filled", fillcolor="#F4F6F8", fontname="DejaVu Sans", fontsize=10, color="#444444"];
+  g [label="{genesis|prev = 000...0}", fillcolor="#EEEEEE"];
+  e0 [label="{entry 0: run_start|{prev: 000...0}|hash = SHA-256(entry 0)}"];
+  e1 [label="{entry 1: column|{prev: hash 0}|hash = SHA-256(entry 1)}"];
+  e2 [label="{entry 2: transform|{prev: hash 1}|hash = SHA-256(entry 2)}"];
+  en [label="{...|{prev: hash n-1}|hash n}"];
+  s [label="{SEAL|{head = hash n}|MAC = HMAC(seal key, head, count)}", fillcolor="#FDE9C9"];
+  g -> e0 -> e1 -> e2 -> en -> s;
+}
