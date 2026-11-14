@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+# Keys and local outputs must never be committed
+*.key
+.env
+demo_out/
+out/
