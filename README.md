@@ -4,7 +4,7 @@
 RedKross Research Foundation internship: **Task 2** (Group F: Digital Forensics, Privacy and Cyber Resilience)
 **Intern:** Ishaan Bansal | **Intern ID:** 2436
 
-> **Demo video:** [ADD YOUR YOUTUBE (UNLISTED) OR GOOGLE DRIVE LINK HERE]
+> **Demo video:**
 
 > **Safety:** all data in this repository is **synthetic**. No real personal data, credentials or systems are involved, and nothing is tested against anything except VeilChain's own output. See [data/PROVENANCE.md](data/PROVENANCE.md).
 
