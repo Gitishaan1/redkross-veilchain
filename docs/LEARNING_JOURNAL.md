@@ -44,11 +44,8 @@ Precision asks "of what I flagged, how much was really sensitive?"; recall asks 
 
 Other real findings (the manifest-forgery gap and a false positive on order numbers) are in `docs/BUILD_LOG.md`.
 
-## 3. [Your reflection]
+## 3. My Reflection
 
-Write 5 to 10 sentences in your own words after you have run the demo and read the code:
-
-- Which of the concepts above was new to you, and how would you explain it to a classmate?
-- What surprised you when you ran `veilchain redteam`?
-- Which limitation of VeilChain would you fix first, and why?
-- What would you do differently if you built a second version?
+- I got to learn a lot from this project. I previously never worked with data redaction and protection, but now I understand its importance and how it can be done. This project helped me to implement my understanding of TASK-1 where I built the classification matrix for company data.
+- When I ran the red team agent first, I was surprised! The way it was able to find all the phone numbers in 0.6 seconds shows how important it is to correctly protect data.
+- The limitations of VeilChain are not many, but they are very important to address. I strongly believe that addressing the unknown names section is pretty important. For this, the simplest idea that I can think of is using an agentic layer before classifying the data. The agent first tries to understand the context of the sentence and then classifies the value as a name.
