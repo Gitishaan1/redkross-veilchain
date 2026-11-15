@@ -1,7 +1,5 @@
 # Learning journal: VeilChain (RedKross Task 2)
 
-> This journal is built from what actually happened in the project (`docs/BUILD_LOG.md`, `docs/test_matrix.md`, `evidence/`). Sections marked **[Your reflection]** are for the intern to write in their own words after studying the code; they are intentionally left as prompts so that the journal never claims experiences that did not happen.
-
 ## 1. Concepts explained
 
 ### 1.1 Hash versus keyed hash (HMAC)
